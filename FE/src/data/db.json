@@ -1,0 +1,3279 @@
+{
+  "title": "FER202 Review Questions & Answers",
+  "total_questions": 295,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct way to wrap a lazy component with Suspense in React?",
+      "options": [
+        "A. <Suspense loading={<Loading />}>{<MyComponent />}</Suspense>",
+        "B. <Suspense fallback={<Loading />}>{<MyComponent />}</Suspense>",
+        "C. <Suspense wait={<Loading />}>{<MyComponent />}</Suspense>",
+        "D. <Suspense fallback={<Loading />} loading={<MyComponent />} />"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "What is the correct way to declare PropTypes for a component in React?",
+      "options": [
+        "A. Component.propTypes = { ... }",
+        "B. Component.typeCheck = { ... }",
+        "C. Component.props = { ... }",
+        "D. Component.checkProps = { ... }"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "What is the correct way to update the state when it depends on the previous state?",
+      "options": [
+        "A. setValue(value + 1);",
+        "B. setValue(prevValue => prevValue + 1);",
+        "C. setValue(() => value + 1);",
+        "D. setValue(value => value + 1);"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following will navigate to the root path (\"/\") using the useNavigate hook?",
+      "options": [
+        "A. navigate(\"\");",
+        "B. navigate('home');",
+        "C. navigate(\"/\");",
+        "D. navigate('root');"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is the correct way to dispatch an action using the useDispatch hook?",
+      "options": [
+        "A. const dispatch = useDispatch(); dispatch('ACTION_TYPE');",
+        "B. const dispatch = useDispatch(); dispatch(() => { type: 'ACTION_TYPE' });",
+        "C. const dispatch = useDispatch(); dispatch({ type: 'ACTION_TYPE' });",
+        "D. const dispatch = useDispatch(); dispatch({ action: 'ACTION_TYPE' });"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which code snippet demonstrates how to handle a route parameter in React Router?",
+      "options": [
+        "A. <Route path=\"/users/:id\" component={UserDetail} />",
+        "B. <Link to=\"/users\">Users</Link>",
+        "C. import { BrowserRouter as Router, Route } from \"react-router-dom\";",
+        "D. import { Link, Route } from \"react-router-dom\";"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Which code snippet demonstrates how to declare a basic route in React Router?",
+      "options": [
+        "A. <Route path=\"/about\" component={About} />",
+        "B. <Link to=\"/about\">About</Link>",
+        "C. import { BrowserRouter as Router, Route } from \"react-router-dom\";",
+        "D. import { Link, Route } from \"react-router-dom\";"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the correct way to render a React-Bootstrap Button with a primary style?",
+      "options": [
+        "A. <Button className=\"btn btn-primary\">Click Me</Button>",
+        "B. <button class=\"btn btn-primary\">Click Me</button>",
+        "C. <Button variant=\"primary\">Click Me</Button>",
+        "D. <PrimaryButton>Click Me</PrimaryButton>"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is the correct way to pass a function as a prop in React?",
+      "options": [
+        "A. <Child onClick={handleClick()} />",
+        "B. <Child handleClick={handleClick} />",
+        "C. <Child onClick={handleClick} />",
+        "D. <Child handleClick={handleClick()} />"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which component is used to define a route in React Router?",
+      "options": [
+        "A. <Route>",
+        "B. <Router>",
+        "C. <Link>",
+        "D. <Navigation>"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Which class is used to create a button in Bootstrap 5?",
+      "options": [
+        "A. .btn",
+        "B. .button",
+        "C. .btn-primary",
+        "D. .btn-default"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Which action dispatch would correctly increment the count in the reducer setup?",
+      "options": [
+        "A. dispatch({ type: 'add' });",
+        "B. dispatch({ action: 'increment' });",
+        "C. dispatch({ type: 'increment' });",
+        "D. dispatch({ command: 'increment' });"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Which component is typically used in conjunction with React.lazy to handle the loading state?",
+      "options": [
+        "A. <ErrorBoundary>",
+        "B. <Suspense>",
+        "C. <LoadingComponent>",
+        "D. <Provider>"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Which component is used to create a submit button in React-Bootstrap?",
+      "options": [
+        "A. <Button.Submit>",
+        "B. <Form.Submit>",
+        "C. <Form.Button>",
+        "D. <Button>"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "Which component is used to create an input field in React-Bootstrap?",
+      "options": [
+        "A. <Form.Text>",
+        "B. <Form.Control>",
+        "C. <Form.Caption>",
+        "D. <Form.Title>"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "How do you dispatch an action using the dispatch function?",
+      "options": [
+        "A. dispatch('increment');",
+        "B. dispatch({ action: 'increment' });",
+        "C. dispatch('increment' });",
+        "D. dispatch({ type: 'increment' });"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "How do you access props in a functional component in React?",
+      "options": [
+        "A. const Child = (props) => { return <div>{props.name}</div>; };",
+        "B. const Child = () => { return <div>{this.props.name}</div>; };",
+        "C. const Child = (prop) => { return <div>{prop.name}</div>; };",
+        "D. const Child = () => { return <div>{props.name}</div>; };"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "How do you define a lazy component in React?",
+      "options": [
+        "A. const MyComponent = React.lazy(() => import('./MyComponent'));",
+        "B. const MyComponent = lazy(() => import('./MyComponent'));",
+        "C. const MyComponent = import('./MyComponent').lazy();",
+        "D. const MyComponent = React.importLazy('./MyComponent');"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "How do you create navigation links in React Router?",
+      "options": [
+        "A. Using the <Switch> component",
+        "B. Using the <Link> component",
+        "C. Using the <Route> component",
+        "D. Using the <Navigate> component"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "How can you define a route with multiple parameters, such as userId and postId?",
+      "options": [
+        "A. <Route path=\"/user/userId/post/postId\" component={UserPost} />",
+        "B. <Route path=\"/user/:userId/:postId\" component={UserPost} />",
+        "C. <Route path=\"/user/:userId/post/:postId\" component={UserPost} />",
+        "D. <Route path=\"/user?userId?post?postId\" component={UserPost} />"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "How do you define a dynamic route parameter in React Router?",
+      "options": [
+        "A. <Route path=\"/users/:userId\" component={UserDetail} />",
+        "B. <Route path=\"/users\" component={UserDetail} />",
+        "C. <Route path=\"/users/{userId}\" component={UserDetail} />",
+        "D. <Route path=\"/users?userId=:userId\" component={UserDetail} />"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "How do you create navigation links in React Router?",
+      "options": [
+        "A. Using the <Link> component",
+        "B. Using the <Route> component",
+        "C. Using the <NavLink> component",
+        "D. Using the <Switch> component"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "How can you access the state and dispatch from Context in a child component?",
+      "options": [
+        "A. const [state, dispatch] = useContext(CountContext);",
+        "B. const { state, dispatch } = CountContext;",
+        "C. const { state, dispatch } = useContext(CountContext);",
+        "D. const state = CountContext.state;"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "How can you declare PropTypes for a prop that is an array of integers?",
+      "options": [
+        "A. prop: PropTypes.arrayOf(PropTypes.number)",
+        "B. prop: PropTypes.arrayOf(PropTypes.integer)",
+        "C. prop: PropTypes.array(PropTypes.number)",
+        "D. prop: PropTypes.array(PropTypes.integer)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "How would you use the useEffect Hook to fetch data from an API in a React component?",
+      "options": [
+        "A. useEffect(fetchData, []);",
+        "B. useEffect(() => fetchData(), [fetchData]);",
+        "C. useEffect(() => fetchData());",
+        "D. useEffect(() => fetchData(), []);"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "question": "How would you use the useState Hook to manage a counter in a React component?",
+      "options": [
+        "A. const [count, setCount] = useState(0);",
+        "B. const count = useState(0);",
+        "C. const count = useState()[0];",
+        "D. const [count, setCount] = useState();"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "How would you use the useContext Hook to access a shared theme in a React component?",
+      "options": [
+        "A. const theme = useContext(ThemeContext);",
+        "B. const { theme } = useContext(ThemeContext);",
+        "C. const { theme } = useContext(ThemeContext.Provider);",
+        "D. const theme = useContext(ThemeContext.Provider);"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "How do you define a route that matches /users/123 and passes the 123 as a parameter to the component?",
+      "options": [
+        "A. <Route path=\"/users?id\" element={<User />} />",
+        "B. <Route path=\"/users/:id\" element={<User />} />",
+        "C. <Route path=\"/users/[id]\" element={<User />} />",
+        "D. <Route path=\"/users/#id\" element={<User />} />"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "How would you extract and display multiple parameters, userId and postId, in a component?",
+      "options": [
+        "A. const { userId, postId } = useParams();",
+        "B. const userId = useParams('userId'); const postId = useParams('postId');",
+        "C. const userId = route.params.userId; const postId = route.params.postId;",
+        "D. const { userId } = useParams(); const { postId } = useParams();"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "How would you navigate back to the previous page using the useNavigate hook?",
+      "options": [
+        "A. navigate('/back');",
+        "B. navigate('back');",
+        "C. navigate(-1);",
+        "D. navigate('/previous');"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Can you provide an example of a custom property validator in React that checks if a prop is a positive number?",
+      "options": [
+        "A. value: PropTypes.positiveNumber",
+        "B. value: function(props, propName, componentName)",
+        "C. value: PropTypes.number && value > 0",
+        "D. value: PropTypes.number && value >= 0"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Write a custom property validator in React for a prop called \"email\" that should be a valid email address.",
+      "options": [
+        "A. email: PropTypes.string",
+        "B. email: PropTypes.email",
+        "C. email: PropTypes.string.isRequired",
+        "D. email: function(props, propName, componentName)"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "What is the first step in migrating from useState to useReducer with this code?",
+      "options": [
+        "A. Replace setCount with dispatch in the existing code.",
+        "B. Move all state update logic into a reducer function.",
+        "C. Define the reducer function and use dispatch to replace setCount.",
+        "D. Import useReducer without changing any code."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "What is the correct way to define default props in a functional component?",
+      "options": [
+        "A. const Child = ({ name }) => { name = name || \"Default Name\"; return <div>{name}</div>; };",
+        "B. const Child = ({ name }) => { return <div>{name ? name : \"Default Name\"}</div>; };",
+        "C. const Child = ({ name }) => { return <div>{name || \"Default Name\"}</div>; };",
+        "D. const Child = ({ name = \"Default Name\" }) => { return <div>{name}</div>; };"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 35,
+      "question": "What will be the output of the following code?\nconst obj = {\n  name: 'Alice',\n  greet: () => {\n    console.log(this.name);\n  }\n};\nobj.greet();",
+      "options": [
+        "A. Alice",
+        "B. undefined",
+        "C. this",
+        "D. this.name"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is a valid JSON object?",
+      "options": [
+        "A. {\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+        "B. {\n  name: \"John Doe\",\n  age: \"30\",\n  city: \"New York\"\n}",
+        "C. {\n  name: \"John Doe\",\n  age: 30,\n  city: \"New York\"\n}",
+        "D. [\"name\" = \"John Doe\", \"age\" = 30, \"city\" = \"New York\"]"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is the correct syntax to use useDispatch in a functional component?",
+      "options": [
+        "A. const MyComponent = () => {\n  const dispatch = useDispatch();\n  return <div>My Component</div>;\n};",
+        "B. const MyComponent = () => { const dispatch = useDispatch; return <div>My Component</div>; };",
+        "C. const MyComponent = () => {\n  const dispatch = dispatch();\n  return <div>My Component</div>;\n};",
+        "D. const MyComponent = () => { const dispatch = useDispatch(); return <div>My Component with {dispatch}</div>; };"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Which of the following correctly passes an object as a prop to a child component?",
+      "options": [
+        "A. const user = { name: \"Hedy\", age: 35 };\nfunction ParentComponent() {\n  return <ChildComponent user={user.toString()} />;\n}",
+        "B. const user = { name: \"Hedy\", age: 35 };\nfunction ParentComponent() {\n  return <ChildComponent user=\"user\" />;\n}",
+        "C. const user = { name: \"Hedy\", age: 35 };\nfunction ParentComponent() {\n  return <ChildComponent user=\"{user}\" />;\n}",
+        "D. const user = { name: \"Hedy\", age: 35 };\nfunction ParentComponent() {\n  return <ChildComponent user={user} />;\n}"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a correct way to initialize multiple state variables using useState?",
+      "options": [
+        "A. const [value1, setValue1, value2, setValue2] = useState(0, 0);",
+        "B. const [value1, setValue1] = useState(0);\nconst [value2, setValue2] = useState(0);",
+        "C. const [state, setState] = useState({ value1: 0, value2: 0 });",
+        "D. const [value1, value2, setValues] = useState(0, 0);"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Which method is commonly used to transform an array of data into a list of components in React?",
+      "options": [
+        "A. const items = [\"Apple\", \"Banana\", \"Cherry\"];\nconst listItems = items.filter(item => <li>{item}</li>);",
+        "B. const items = [\"Apple\", \"Banana\", \"Cherry\"];\nconst listItems = items.map(item => <li>{item}</li>);",
+        "C. const items = [\"Apple\", \"Banana\", \"Cherry\"];\nconst listItems = items.forEach(item => <li>{item}</li>);",
+        "D. const items = [\"Apple\", \"Banana\", \"Cherry\"];\nconst listItems = items.reduce(item => <li>{item}</li>);"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Which method can help ensure that updates in a function depend on the previous state in React?",
+      "options": [
+        "A. const [count, setCount] = useState(0);\nfunction increment() {\n  setCount(count + 1);\n}",
+        "B. const [count, setCount] = useState(0);\nfunction increment() {\n  setCount(count + 1);\n}",
+        "C. const [count, setCount] = useState(0);\nfunction increment() {\n  setCount(prevCount => prevCount + 1);\n}",
+        "D. const [count, setCount] = useState(0);\nfunction increment() {\n  setCount(count - 1);\n}"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "How would you handle errors in a fetch request to ensure that the error is caught and logged to the console?",
+      "options": [
+        "A. fetch(url).then((response) => { return response.json(); }).catch(error => console.log(error))",
+        "B. fetch(url).then(response => response.catch(error => console.log(error)))",
+        "C. fetch(url).catch(error => {{ console.log(error) }})",
+        "D. fetch(url).then(response => { throw new Error() }).catch(error => console.log(error))"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "How do you pass multiple props to a child component in React?",
+      "options": [
+        "A. <Child props={{ name: \"John\", age: 30 }} />",
+        "B. <Child name=\"John\" age={30} />",
+        "C. <Child name=\"John\" age=\"30\" />",
+        "D. <Child name=\"John\" age=30 />"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "How would you combine filter() and map() to display only fruits with names longer than 5 characters and transform them into uppercase?",
+      "options": [
+        "A. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nreturn (\n  <ul>\n    {items.filter(item => item.length > 5).map(item => <li>{item}</li>)}\n  </ul>\n);",
+        "B. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nreturn (\n  <ul>\n    {items.filter(item => item.length > 5).map(item => <li key={item}>{item.toUpperCase()}</li>)}\n  </ul>\n);",
+        "C. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nreturn (\n  <ul>\n    {items.map(item => <li key={item}>{item}</li>).filter(item => item.length > 5)}\n  </ul>\n);",
+        "D. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nreturn (\n  <ul>\n    {items.map(item => item.toUpperCase()).filter(item => item.length > 5)}\n  </ul>\n);"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "How can you avoid contradictions in state with this code?\nconst [isOpen, setIsOpen] = useState(false);\nconst [buttonText, setButtonText] = useState(isOpen ? \"se\" : \"Open\");\nfunction toggle() {\n  setIsOpen(!isOpen);\n  setButtonText(isOpen ? \"Open\" : \"se\");\n}",
+      "options": [
+        "A. The code above is fine as it is.",
+        "B. Remove buttonText from state and calculate it dynamically in the render method based on isOpen.",
+        "C. Keep both isOpen and buttonText in state but update them separately.",
+        "D. Use useEffect to sync buttonText with isOpen."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "How would you correctly convert the following HTML code to JSX?\n<h1>Hedy Lamarr's Todos</h1>\n<img src=\"https://i.imgur.com/yXOvdOSs.jpg\" alt=\"Hedy Lamarr\" class=\"photo\">\n<ul>\n  <li>Invent new traffic lights</li>\n  <li>Rehearse a movie scene</li>\n  <li>Improve the spectrum technology</li>\n</ul>",
+      "options": [
+        "A. <>\n  <h1>Hedy Lamarr's Todos</h1>\n  <img src=\"https://i.imgur.com/yXOvdOSs.jpg\" alt=\"Hedy Lamarr\" className=\"photo\" />\n  <ul>\n    <li>Invent new traffic lights</li>\n    <li>Rehearse a movie scene</li>\n    <li>Improve the spectrum technology</li>\n  </ul>\n</>",
+        "B. <>\n  <h1>Hedy Lamarr's Todos</h1>\n  <img src=\"https://i.imgur.com/yXOvdOSs.jpg\" alt=\"Hedy Lamarr\" class=\"photo\" />\n  <ul>\n    <li>Invent new traffic lights</li>\n    <li>Rehearse a movie scene</li>\n    <li>Improve the spectrum technology</li>\n  </ul>\n</>",
+        "C. <>\n  <h1>Hedy Lamarr's Todos</h1>\n  <img src=\"https://i.imgur.com/yXOvdOSs.jpg\" alt=\"Hedy Lamarr\" className=\"photo\" />\n  <ul>\n    <li>Invent new traffic lights</li>\n    <li>Rehearse a movie scene</li>\n  </ul>\n</>"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "How do you use the Grid system in React-Bootstrap?",
+      "options": [
+        "A. <Row><Container><Col xs={6}>2 of 3 (wider)</Col></Container></Row>",
+        "B. <Row><Container><Column>1 of 3</Column></Container></Row>",
+        "C. <Container><Row><Col xs={6}>2 of 3 (wider)</Col></Row></Container>",
+        "D. <Container><Column><Row xs={6}>2 of 3 (wider)</Row></Column></Container>"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "How would you access the message prop inside the ChildComponent?\nfunction ChildComponent(props) {\n  return <h1>{props.message}</h1>;\n}",
+      "options": [
+        "A. props.message",
+        "B. this.props.message",
+        "C. props(\"message\")",
+        "D. props.getMessage()"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "How do you define a dynamic route parameter in React Router?",
+      "options": [
+        "A. <Route path=\"/user/id\" component={UserProfile} />",
+        "B. <Route path=\"/user.:id\" component={UserProfile} />",
+        "C. <Route path=\"/user=?id\" component={UserProfile} />",
+        "D. <Route path=\"/user/:id\" component={UserProfile} />"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "How do you configure a Redux store using Redux Toolkit?",
+      "options": [
+        "A. import { createStore } from 'redux'; const store = createStore({ reducer: { counter: counterReducer } });",
+        "B. import { createStore } from 'redux'; const store = createStore({ counter: counterReducer });",
+        "C. import { configureStore } from '@reduxjs/toolkit'; const store = configureStore({ counter: counterReducer });",
+        "D. import { configureStore } from '@reduxjs/toolkit'; const store = configureStore({ reducer: { counter: counterReducer } });"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 51,
+      "question": "How do you dispatch an action when a button is clicked?",
+      "options": [
+        "A. const handleClick = () => { dispatch({ type: 'BUTTON_CLICKED' }); };\n<button onClick={handleClick}>Click me</button>;",
+        "B. const handleClick = () => { dispatch({ type: 'BUTTON_CLICKED' }); };\n<button onClick={() => handleClick()}>Click me</button>;",
+        "C. const handleClick = () => { dispatch({ type: 'BUTTON_CLICKED' }); };\n<button onClick={handleClick()}>Click me</button>;",
+        "D. const handleClick = () => { dispatch({ action: 'BUTTON_CLICKED' }); };\n<button onClick={handleClick}>Click me</button>;"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "How can you render only specific items from an array?",
+      "options": [
+        "A. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nconst filteredItems = items.map(item => item.startsWith(\"A\"));",
+        "B. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nconst filteredItems = items.reduce(item => item.startsWith(\"A\"));",
+        "C. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nconst filteredItems = items.filter(item => item.startsWith(\"A\"));\nreturn (<ul>{filteredItems.map((item, index) => <li key={index}>{item}</li>)}</ul>);",
+        "D. const items = [\"Apple\", \"Banana\", \"Cherry\", \"Avocado\"];\nconst filteredItems = items.find(item => item.startsWith(\"A\"));"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "How do you wrap a lazy-loaded component with a fallback in React?",
+      "options": [
+        "A. <Suspense loader={<div>Loading...</div>}><LazyComponent /></Suspense>",
+        "B. <Suspense fallback={<div>Loading...</div>}><LazyComponent /></Suspense>",
+        "C. <Await fallback={<div>Loading...</div>}><LazyComponent /></Await>",
+        "D. <Loading fallback={<div>Loading...</div>}><LazyComponent /></Loading>"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Create a responsive grid layout using React-Bootstrap with three columns that stack vertically on small screens. Which classes would you apply?",
+      "options": [
+        "A. <Container><Row><Col>1 of 3</Col><Col>2 of 3</Col><Col>3 of 3</Col></Row></Container>",
+        "B. <Container><Row><Col sm={4}>1 of 3</Col><Col sm={4}>2 of 3</Col><Col sm={4}>3 of 3</Col></Row></Container>",
+        "C. <Container><Row><Col md={12}>1 of 4</Col><Col md={12}>2 of 4</Col><Col md={12}>3 of 4</Col></Row></Container>",
+        "D. <Container><Row><Col sm={12} md={4}>1 of 4</Col><Col sm={12} md={4}>2 of 4</Col><Col sm={12} md={4}>3 of 4</Col></Row></Container>"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 55,
+      "question": "Create a React component that uses the Suspense component to display a fallback while loading a lazily loaded component. Which code snippet is correct?",
+      "options": [
+        "A. import React, { lazy, Suspense } from 'react';\nconst MyComponent = lazy(() => import('./MyComponent'));\nfunction App() {\n  return (\n    <Suspense fallback={<div>Loading...</div>}>\n      <MyComponent />\n    </Suspense>\n  );\n}\nexport default App;",
+        "B. import React, { Suspense } from 'react';\nconst MyComponent = import('./MyComponent');\nfunction App() {\n  return (\n    <Suspense fallback={<div>Loading...</div>}>\n      <MyComponent />\n    </Suspense>\n  );\n}\nexport default App;",
+        "C. import React, { lazy } from 'react';\nconst MyComponent = lazy('./MyComponent');",
+        "D. import React from 'react';\nconst MyComponent = React.lazy(() => import('./MyComponent'));"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "Create a React component that uses Inline event handlers to log a message when a button is clicked. Which code snippet is correct?",
+      "options": [
+        "A. class MyButton extends React.Component {\n  render() {\n    return (\n      <button onClick={(e) => console.log('clicked', e)}>Click me</button>\n    );\n  }\n}",
+        "B. class MyButton extends React.Component {\n  render() {\n    return (\n      <button onClick={this.onClick}>Click me</button>\n    );\n  }\n}",
+        "C. class MyButton extends React.Component {\n  render() {\n    return (\n      <button onClick={this.onClick.bind(this)}>Click me</button>\n    );\n  }\n}",
+        "D. class MyButton extends React.Component {\n  render() {\n    return (\n      <button onClick={() => this.onClick()}>Click me</button>\n    );\n  }\n}"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "What is the above JSON server code used for?",
+      "options": [
+        "A. Create a dynamic server to serve JSON data.",
+        "B. Create a dynamic web application using JSON data.",
+        "C. Create a JSON file based on data from the server.",
+        "D. Configure the development environment for the project using JSON."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Which process in React corresponds to \"send order to kitchen\"?",
+      "options": [
+        "A. Triggering a render",
+        "B. Rendering the component",
+        "C. Committing to the DOM",
+        "D. Placing the order on the table"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "How many columns will the code below display on a mobile screen?\n<Container>\n  <Row>\n    <Col sm={6} md={4} />\n    <Col sm={6} md={8} />\n  </Row>\n</Container>",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Create a React component that uses composition to include a header, main content, and footer. Which code snippet is correct?",
+      "options": [
+        "A. function App() {\n  return (<div><Header /><MainContent /><Footer /></div>);\n}",
+        "B. function App() {\n  return (<div><Header /><Footer /><MainContent /></div>);\n}",
+        "C. function App() {\n  return (<div><MainContent /><Header /><Footer /></div>);\n}",
+        "D. function App() {\n  return (<div><Footer /><Header /><MainContent /></div>);\n}"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Find the bug in the following React code:\nconst [items, setItems] = useState([]);\nconst addItem = () => {\n  items.push('new');\n  setItems(items);\n};",
+      "options": [
+        "A. useState should be useReducer",
+        "B. use setItems([...items, 'new'])",
+        "C. push is not a valid method",
+        "D. setItems must take a string"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "What is the result of the following Git commands?\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch new-feature\ngit checkout new-feature\ngit add new-file.js\ngit commit -m \"Add new file\"\ngit checkout main\ngit merge new-feature",
+      "options": [
+        "A. The repository has a new branch called new-feature with new-file.js added.",
+        "B. The main branch has new-file.js added.",
+        "C. The new-feature branch is merged into main without new-file.js.",
+        "D. The repository remains unchanged."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "In the code above, how can we increase the value of the count state by 1 when the user clicks the \"Increment\" button?",
+      "options": [
+        "A. Call the method this.setState({ count: this.state.count + 1 }) inside the incrementCount method.",
+        "B. Assign a new value to count using the assignment operator (=) inside the incrementCount method.",
+        "C. Call the method this.state.count += 1 inside the incrementCount method.",
+        "D. Use this.setState({ count + 1 }) inside the incrementCount method."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "In the code above, how can we update the value of the name or email state based on the user input in the respective input fields?",
+      "options": [
+        "A. Call the method this.setState({ name: event.target.value }) or this.setState({ email: event.target.value }) inside the handleInputChange method.",
+        "B. Assign a new value to name or email using the assignment operator (=) inside the handleInputChange method.",
+        "C. Call the method this.state.name = event.target.value or this.state.email = event.target.value inside the handleInputChange method.",
+        "D. Use this.setState(event.target.value) inside the handleInputChange method."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "What happens when the \"Toggle Message\" button is clicked?\nconst [showMessage, setShowMessage] = useState(false);\nconst toggleMessage = () => {\n  setShowMessage(!showMessage);\n};",
+      "options": [
+        "A. The message is displayed.",
+        "B. The message is hidden.",
+        "C. The state of the component is updated.",
+        "D. The component is re-rendered."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "What type of component is represented by the code above?\nconst Greeting = ({ name }) => {\n  return <h1>Hello, {name}!</h1>;\n};\nexport default Greeting;",
+      "options": [
+        "A. Class component",
+        "B. Functional component",
+        "C. Container component",
+        "D. Higher-order component"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Which process in React corresponds to \"putting orders on the table\"?",
+      "options": [
+        "A. Triggering a render",
+        "B. Rendering the component",
+        "C. Committing to the DOM",
+        "D. Placing the order on the table"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "In ReactJS with Bootstrap, select the JSX code snippet to create a button with a blue background and white text color.",
+      "options": [
+        "A. import React from 'react'; import { Button } from 'react-bootstrap'; const MyButton = () => { return <Button variant=\"primary\" className=\"btn-primary\">My Button</Button>; }; export default MyButton;",
+        "B. import React from 'react'; import { Button } from 'react-bootstrap'; const MyButton = () => { return <Button variant=\"primary\" className=\"bg-primary text-white\">My Button</Button>; }; export default MyButton;",
+        "C. import React from 'react'; import { Button } from 'react-bootstrap'; const MyButton = () => { return <Button variant=\"primary\" className=\"btn btn-primary\">My Button</Button>; }; export default MyButton;",
+        "D. import React from 'react'; import { Button } from 'react-bootstrap'; const MyButton = () => { return <Button className=\"btn-primary\">My Button</Button>; }; export default MyButton;"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "In Bootstrap, select the HTML/CSS code snippet to create a navbar with a dropdown menu containing sub-items.",
+      "options": [
+        "A. <nav class=\"navbar\"><ul class=\"nav\"><li class=\"nav-item dropdown\"><a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\">Dropdown</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"#\">Sub-Item 1</a><a class=\"dropdown-item\" href=\"#\">Sub-Item 2</a></div></li></ul></nav>",
+        "B. <nav class=\"navbar\"><ul class=\"nav\"><li class=\"nav-item dropdown\"><a class=\"nav-link\" href=\"#\">Dropdown</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"#\">Sub-Item 1</a></div></li></ul></nav>",
+        "C. <nav class=\"navbar\"><ul class=\"nav\"><li class=\"nav-item dropdown\"><a class=\"nav-link\" href=\"#\">Dropdown</a></li></ul></nav>"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "What components does the code above display?\nimport { Button, Checkbox, Listbox } from 'react-bootstrap';",
+      "options": [
+        "A. Grid, Button, ListBox",
+        "B. Button, Radiobox, Listbox",
+        "C. Checkbox, Listbox, Button",
+        "D. Button, Checkbox, Tabs"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "Select the code snippet that correctly defines a Class Component in React.",
+      "options": [
+        "A. class MyComponent extends React.Component { render() { return <div>Hello, World!</div>; } }",
+        "B. function MyComponent() { return <div>Hello, World!</div>; }",
+        "C. const MyComponent = () => { return <div>Hello, World!</div>; }",
+        "D. const MyComponent = React.createClass({ render() { return <div>Hello, World!</div>; } });"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Select the code snippet that correctly defines a component with state in React.",
+      "options": [
+        "A. const MyComponent = React.createClass({ getInitialState() { return { count: 0 }; }, render() { return <div>{this.state.count}</div>; } });",
+        "B. function MyComponent() { const [count, setCount] = React.useState(0); return <div>{count}</div>; }",
+        "C. class MyComponent extends React.Component { constructor(props) { super(props); this.state = { count: 0 }; } render() { return <div>{this.state.count}</div>; } }",
+        "D. const MyComponent = () => { const [count, setCount] = React.useState(0); return <div>{count}</div>; };"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Select the code snippet that correctly defines a Higher-Order Component in React using an arrow function.",
+      "options": [
+        "A. function withLogger(WrappedComponent) { return class extends React.Component { // HOC implementation }; }",
+        "B. const withLogger = (WrappedComponent) => { return class extends React.Component { // HOC implementation }; };",
+        "C. const withLogger = (WrappedComponent) => { return function HOC() { // HOC implementation }; };",
+        "D. function withLogger(WrappedComponent) { return function HOC() { // HOC implementation }; }"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "question": "How can you pass parameters to an event handler in React?",
+      "options": [
+        "A. Using the bind() method.",
+        "B. Using arrow functions.",
+        "C. Using the addEventListener() method.",
+        "D. Using the this keyword."
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "id": 75,
+      "question": "Which of the following are true characteristics of React components? Select all that apply.",
+      "options": [
+        "A. Can be reused across different parts of the application.",
+        "B. Manage their own state.",
+        "C. Use JSX syntax.",
+        "D. Directly manage routing."
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Which of the following are valid ways to initialize and manage state in a functional React component? (Choose 2 correct answers)",
+      "options": [
+        "A. Using the useState hook.",
+        "B. Using the useReducer hook.",
+        "C. Using a Provider component.",
+        "D. Using the useRef hook."
+      ],
+      "answers": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 77,
+      "question": "How do you include Tailwind CSS in a project?",
+      "options": [
+        "A. Link the Tailwind CSS stylesheet in the HTML file.",
+        "B. Import the Tailwind CSS file in the JavaScript code.",
+        "C. Use the @import rule in a CSS file to import Tailwind CSS.",
+        "D. Add Tailwind CSS as a dependency in the package.json file."
+      ],
+      "answers": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 78,
+      "question": "How do you import and initialize the useReducer hook in a React component? (Select all that apply)",
+      "options": [
+        "A. const [state, dispatch] = useReducer(reducer, initialState);",
+        "B. const [state, setState] = useReducer(reducer, initialState);",
+        "C. import React, { useReducer } from 'react';",
+        "D. import { useReducer } from 'react-redux';"
+      ],
+      "answers": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Select the code snippet that correctly defines a Functional Component in React (Choose 2 answers).",
+      "options": [
+        "A. function MyComponent() { return <div>Hello, World!</div>; }",
+        "B. const MyComponent = () => { return <div>Hello, World!</div>; };",
+        "C. class MyComponent extends React.Component { render() { return <div>Hello, World!</div>; } }",
+        "D. const MyComponent = React.createClass({ render() { return <div>Hello, World!</div>; } });"
+      ],
+      "answers": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": 80,
+      "question": "Select the benefits of using React.memo and useMemo in React applications. (Choose 2 correct answers)",
+      "options": [
+        "A. Prevent unnecessary component re-renders",
+        "B. Automatically synchronize component state with global state",
+        "C. Guarantee object references don't change during re-rendering",
+        "D. Simplify the process of context management"
+      ],
+      "answers": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "id": 81,
+      "question": "What are the key features of Next.js?",
+      "options": [
+        "A. Server-side rendering, Static Site Generation, Image Optimization, Built-in Routing.",
+        "B. Database integration, code debugging, and form validation.",
+        "C. CSS styling, version control, and error handling.",
+        "D. Package management, command-line interface, and testing framework."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "question": "Which methods are part of the Lifecycle in Class Components?",
+      "options": [
+        "A. componentDidMount, componentDidUpdate, componentWillUnmount.",
+        "B. render, setState, forceUpdate.",
+        "C. constructor, render, componentWillUpdate.",
+        "D. componentWillReceiveProps, shouldComponentUpdate, componentDidCatch."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "question": "Which React-Bootstrap components are used to create navigation menus?",
+      "options": [
+        "A. Navbars, Navs, Tabs.",
+        "B. Alert, Card.",
+        "C. Button, Checkbox.",
+        "D. Modal, Listbox."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 84,
+      "question": "Which pair of Git commands is used to create a new branch and then switch to it?",
+      "options": [
+        "A. git new branch-name; git change branch-name",
+        "B. git branch branch-name; git checkout branch-name",
+        "C. git make branch-name; git switch branch-name",
+        "D. git create branch-name; git select branch-name"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "Describe the Redux flow process when an action is dispatched.",
+      "options": [
+        "A. Action is dispatched -> Middleware -> Reducer -> Store -> Component.",
+        "B. Component dispatches action -> Reducer -> Middleware -> Store.",
+        "C. Middleware dispatches action -> Reducer -> Store -> Component.",
+        "D. Reducer dispatches action -> Middleware -> Component -> Store."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "question": "Evaluate the benefits of using Redux Thunk middleware in a Redux application. Which of the following is NOT a benefit?",
+      "options": [
+        "A. Allows for handling asynchronous actions.",
+        "B. Simplifies the process of making API calls within action creators.",
+        "C. Ensures that all actions are synchronous.",
+        "D. Enables conditional dispatching of actions."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 87,
+      "question": "Evaluate the benefits of using the React.lazy API for code splitting in a React application. Which of the following is NOT a benefit?",
+      "options": [
+        "A. Reduces the initial load time by splitting code into bundles.",
+        "B. Ensures that all components are loaded upfront.",
+        "C. Provides a better user experience by loading components only when needed.",
+        "D. Allows for dynamic imports and lazy loading of components."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "Which method is used to perform enhanced array manipulation in ES6?",
+      "options": [
+        "A. map()",
+        "B. forEach()",
+        "C. reduce()",
+        "D. filter()"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "question": "Which two recent additions to React allow the complete integration of code splitting into applications?",
+      "options": [
+        "A. useState() and useEffect()",
+        "B. React.memo() and useCallback()",
+        "C. lazy() API and Suspense components",
+        "D. ReactDOM.createRoot() and BrowserRouter."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 90,
+      "question": "After making a successful fetch request, how would you retrieve the JSON data from the response object?",
+      "options": [
+        "A. response.data()",
+        "B. response.json()",
+        "C. response.jsonText()",
+        "D. response.body.json()"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "What is a core feature of Next.js that enhances SEO?",
+      "options": [
+        "A. Real-time data fetching.",
+        "B. Client-side routing.",
+        "C. Automatic code splitting.",
+        "D. Server-side rendering."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 92,
+      "question": "What is the typical file extension for a React component?",
+      "options": [
+        "A. .html",
+        "B. .css",
+        "C. .js or .jsx",
+        "D. .php"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 93,
+      "question": "What is the command to start json-server and specify the JSON file to be served?",
+      "options": [
+        "A. npm start",
+        "B. json-server start",
+        "C. npx json-server --watch data.json",
+        "D. node server.js"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 94,
+      "question": "What is the primary architectural style used in designing web services that follow REST principles?",
+      "options": [
+        "A. SOAP (Simple Object Access Protocol)",
+        "B. RPC (Remote Procedure Call)",
+        "C. MVC (Model-View-Controller)",
+        "D. RESTful (Representational State Transfer)"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 95,
+      "question": "What is the main concept behind Tailwind CSS?",
+      "options": [
+        "A. Component-based architecture.",
+        "B. Object-oriented programming.",
+        "C. Utility classes.",
+        "D. Modular CSS."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 96,
+      "question": "What is a Component in React?",
+      "options": [
+        "A. It is a single UI element.",
+        "B. It is a JavaScript function.",
+        "C. It is an HTML framework.",
+        "D. It is a Python class."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 97,
+      "question": "What is Node.js?",
+      "options": [
+        "A. A web browser.",
+        "B. A programming language.",
+        "C. A JavaScript runtime.",
+        "D. A CSS framework."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 98,
+      "question": "What are Higher-Order Components in React?",
+      "options": [
+        "A. Advanced components.",
+        "B. Components written in JavaScript.",
+        "C. Components with multiple props.",
+        "D. Components with multiple states."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "What are the key features of React?",
+      "options": [
+        "A. Two-way data binding.",
+        "B. Virtual DOM.",
+        "C. SQL database integration.",
+        "D. Automatic styling."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "What does the HTTP response code 404 indicate?",
+      "options": [
+        "A. OK.",
+        "B. Created.",
+        "C. Not Found.",
+        "D. Internal Server Error."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "question": "What does REST stand for in the context of web services?",
+      "options": [
+        "A. Representational State Transfer",
+        "B. Remote Execution and State Transfer",
+        "C. Resourceful Endpoint and Service Tools",
+        "D. Responsive Event-driven Server Technologies"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "What are the three possible states of a Promise as described in the sources?",
+      "options": [
+        "A. Initial, Running, Completed",
+        "B. Starting, Paused, Finished",
+        "C. Pending, Fulfilled, Rejected",
+        "D. Waiting, Processing, Error Answer"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 103,
+      "question": "What command is used to create a new Next.js project?",
+      "options": [
+        "A. npx create-react-app",
+        "B. npm install next",
+        "C. npx create-next-app",
+        "D. git clone next.js"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "Which of the following is a utility-first CSS framework that is often used with Next.js?",
+      "options": [
+        "A. Bootstrap",
+        "B. Material-UI",
+        "C. Tailwind CSS",
+        "D. Bulma"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "question": "Which of the following components can be used to create a slideshow in Bootstrap?",
+      "options": [
+        "A. .popover",
+        "B. .modal",
+        "C. .carousel",
+        "D. .nav-pills"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "question": "Which Bootstrap component is used for creating a navigation bar?",
+      "options": [
+        "A. .nav-bar",
+        "B. .navigation",
+        "C. .nav",
+        "D. .menu"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 107,
+      "question": "Which command is used to install the required dependencies for a React project?",
+      "options": [
+        "A. npm install",
+        "B. git lOne",
+        "C. create-react-app",
+        "D. npm start"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "Which class is used to create a collapsible accordion component in Bootstrap 5?",
+      "options": [
+        "A. .collapse",
+        "B. .accordion",
+        "C. .collapsible",
+        "D. .collapse-accordion"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "Which class is used to create a form input with a validation state in Bootstrap 5?",
+      "options": [
+        "A. .form-control",
+        "B. .input-group",
+        "C. .form-check",
+        "D. .form-validation"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "(Choose 1 answer) Which class is used to create a form input with a validation state in Bootstrap 5?",
+      "options": [
+        "A. .input-group",
+        "B. .form-check",
+        "C. .form-control",
+        "D. .form-validation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "Which feature of ES6 is used to iterate over the elements of an array?",
+      "options": [
+        "A. Spread syntax",
+        "B. Destructuring assignment",
+        "C. Arrow functions",
+        "D. for...of loop"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "Which ES6 feature allows you to extract values from arrays or objects and assign them to variables?",
+      "options": [
+        "A. Template literals",
+        "B. Arrow functions",
+        "C. Destructuring assignment",
+        "D. Promises"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 113,
+      "question": "Which HTTP status code indicates a successful response from a server?",
+      "options": [
+        "A. 200 OK",
+        "B. 404 Not Found",
+        "C. 500 Internal Server Error",
+        "D. 302 Found"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "(Choose 1 answer) Which HTTP method is typically used to retrieve data from a server?",
+      "options": [
+        "A. POST",
+        "B. DELETE",
+        "C. PUT",
+        "D. GET"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 115,
+      "question": "Which method is used to update the state in a class component?",
+      "options": [
+        "A. setState",
+        "B. useState",
+        "C. updateState",
+        "D. changeState"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "Which method would you use to update the state of a component in React?",
+      "options": [
+        "A. setState",
+        "B. getState",
+        "C. updateState",
+        "D. modifyState"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "Which React hook is used to manage state in functional components?",
+      "options": [
+        "A. useEffect",
+        "B. useContext",
+        "C. useState",
+        "D. useReducer"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "question": "Which React-Bootstrap component is used to display a popup dialog with customizable content?",
+      "options": [
+        "A. Modal",
+        "B. Checkbox",
+        "C. Button",
+        "D. Card"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "Which React concept is used to pass data from a parent component to a child component?",
+      "options": [
+        "A. State",
+        "B. Props",
+        "C. Context",
+        "D. Ref"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "Which React Router component is commonly used to perform client-side navigation without triggering a full page reload?",
+      "options": [
+        "A. <Router>",
+        "B. <Routes>",
+        "C. <Link>",
+        "D. <Route>"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 121,
+      "question": "Which prop is used to define default values for props in a functional component in React 18?",
+      "options": [
+        "A. initialProps",
+        "B. props",
+        "C. defaultProps",
+        "D. defaultValue"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "Which prop is used to provide a unique identifier for elements in a list rendered by a component in React 18?",
+      "options": [
+        "A. key",
+        "B. id",
+        "C. index",
+        "D. ref"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "Which package can be used to set up a simple JSON-based server in Node.js?",
+      "options": [
+        "A. express",
+        "B. json-server",
+        "C. axios",
+        "D. nodemon"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Which is the correct way to consume context in a functional component using the \"useContext\" hook?",
+      "options": [
+        "A. const value = MyContext();",
+        "B. const value = useContext(MyContext);",
+        "C. const value = this.context(MyContext);",
+        "D. <MyContext.Provider useContext={value} />"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Which Bootstrap class is commonly used to create a responsive navigation bar?",
+      "options": [
+        "A. .navbar-static",
+        "B. .nav-horizontal",
+        "C. .navbar",
+        "D. .navigation-block"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 126,
+      "question": "Which Bootstrap class provides a fluid container that adapts to all breakpoints?",
+      "options": [
+        "A. .container-fluid",
+        "B. .container",
+        "C. .container-lg",
+        "D. .container-xs"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Why would a React developer choose to use \"Axios\"?",
+      "options": [
+        "A. To render React components faster",
+        "B. To manage component state globally",
+        "C. To make HTTP requests to APIs",
+        "D. To build reusable hooks"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "question": "Which hook is typically used alongside useSelector to modify the Redux state?",
+      "options": [
+        "A. useState",
+        "B. useEffect",
+        "C. useDispatch",
+        "D. useContext"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "Which of the following is NOT considered a popular front-end framework?",
+      "options": [
+        "A. React",
+        "B. Angular",
+        "C. Django",
+        "D. Vue.js"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "Which method is most commonly used in a React app to fetch data from a server?",
+      "options": [
+        "A. WebSockets",
+        "B. useState()",
+        "C. fetch() or axios inside useEffect()",
+        "D. console.log() inside render()"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "question": "How do you define a Type validator in PropTypes for a prop called \"age\" that should be a number?",
+      "options": [
+        "A. age: PropTypes.string",
+        "B. age: PropTypes.number",
+        "C. age: PropTypes.bool",
+        "D. age: PropTypes.object"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "question": "How can you ensure that a prop is passed as an array with at least one element?",
+      "options": [
+        "A. By using PropTypes.array.isRequired",
+        "B. By creating a custom PropType validator",
+        "C. By using PropTypes.arrayOf()",
+        "D. By using PropTypes.objectOf()"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "How would you navigate programmatically to a route with a parameter using useNavigate in React Router?",
+      "options": [
+        "A. navigate(\"/user.id\");",
+        "B. navigate(\"/user?id=123\");",
+        "C. navigate(\"/user/123\");",
+        "D. navigate({ path: \"/user/123\" });"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 134,
+      "question": "How can you import functions or variables from an ES6 module?",
+      "options": [
+        "A. By using the import keyword",
+        "B. By using the require function",
+        "C. By using the export keyword",
+        "D. By using the include directive"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 135,
+      "question": "How would you write an arrow function in ES6 that adds two numbers?",
+      "options": [
+        "A. const add = function(a, b) { return a + b; }",
+        "B. const add = (a, b) => { return a + b; }",
+        "C. const add => a + b",
+        "D. function add(a, b) { return a + b; }"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "question": "How are Class Components written in React?",
+      "options": [
+        "A. function.",
+        "B. class.",
+        "C. const.",
+        "D. component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "In JSX, how can you embed a JavaScript expression?",
+      "options": [
+        "A. By adding js: before it",
+        "B. By wrapping it in {}",
+        "C. By using () only",
+        "D. By using {{}}"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "In the useEffect hook, how many milliseconds would you wait using setTimeout to perform a side effect after 2 seconds?",
+      "options": [
+        "A. 2",
+        "B. 200",
+        "C. 2000",
+        "D. 20000"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 139,
+      "question": "In a React function component, how do you access a prop named \"name\" that is passed from a parent component?",
+      "options": [
+        "A. this.props.name",
+        "B. props.name",
+        "C. useState.name",
+        "D. getProps().name"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "JSX in React stands for:",
+      "options": [
+        "A. JavaScript XML",
+        "B. Java Syntax Extension",
+        "C. JavaScript Executive Extension",
+        "D. JSON Extension"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "Suppose a React component renders 50 items in a list. If the component re-renders and adds 10 new items, how many total list items will be displayed?",
+      "options": [
+        "A. 40",
+        "B. 50",
+        "C. 60",
+        "D. 70"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "To specify that a property must be provided and must have a specific type in PropTypes, what is appended to the type validator?",
+      "options": [
+        "A. .optional",
+        "B. .default",
+        "C. .isRequired",
+        "D. .mustExist"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 143,
+      "question": "What is the purpose of the 'fluid' prop in React-Bootstrap's Container component?",
+      "options": [
+        "A. It makes the container take up the entire width of the viewport.",
+        "B. It enables the container to display text.",
+        "C. It changes the container's background color.",
+        "D. It makes the container fixed width."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "What is the main advantage of using Hooks in React?",
+      "options": [
+        "A. Hooks allow React to maintain internal state without classes",
+        "B. Hooks simplify sharing functionality between components",
+        "C. Hooks remove the need for functional components",
+        "D. Hooks only support stateful components"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "question": "What is the primary purpose of Next.js?",
+      "options": [
+        "A. To enable server-side rendering and generate static websites.",
+        "B. To manage state in React applications.",
+        "C. To provide a UI component library.",
+        "D. To create database schemas."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "What is the purpose of the rest parameter in ES6?",
+      "options": [
+        "A. To declare variables in the global scope.",
+        "B. To accept an indefinite number of arguments as an array.",
+        "C. To handle asynchronous tasks.",
+        "D. To destructure arrays."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "question": "What is the purpose of json-server in client-server communication?",
+      "options": [
+        "A. To set up a simple static web server that serves data to clients.",
+        "B. To encrypt data during transmission between client and server.",
+        "C. To manage client authentication and session data.",
+        "D. To provide a full-featured backend for the React application."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "What is the purpose of a package.json file in a Node.js project?",
+      "options": [
+        "A. To store application data",
+        "B. To define routes for the web application",
+        "C. To serve as documentation for project dependencies and their versions",
+        "D. To compile JavaScript code"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 149,
+      "question": "What is the primary purpose of event handlers in React?",
+      "options": [
+        "A. To manage state within a component",
+        "B. To respond to user interactions like clicking, hovering, and focusing",
+        "C. To handle server-side logic",
+        "D. To manage routing in a React application"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "question": "What is Redux Thunk used for?",
+      "options": [
+        "A. To manage asynchronous actions in Redux.",
+        "B. To log every action dispatched to the Redux store.",
+        "C. To split reducers into simpler functions.",
+        "D. To handle side effects in React components."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 151,
+      "question": "What is the benefit of using Code Splitting and lazy components for web performance?",
+      "options": [
+        "A. Enhanced security",
+        "B. Handle load-time User Experience (UX)",
+        "C. Smaller bundle sizes",
+        "D. Handle CORS"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 152,
+      "question": "What is the purpose of the className attribute in JSX?",
+      "options": [
+        "A. To define a CSS class for the JSX element",
+        "B. To specify the component's class name",
+        "C. To define a unique identifier for the element",
+        "D. To add inline styles to the element"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 153,
+      "question": "What is event pooling in React?",
+      "options": [
+        "A. The process of reusing event objects for performance optimization.",
+        "B. The process of creating multiple event objects for each event.",
+        "C. The process of cleaning up event objects after they are used.",
+        "D. The process of handling events in a pool of event handlers."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 154,
+      "question": "What is Tailwind CSS?",
+      "options": [
+        "A. A JavaScript framework for building single-page applications.",
+        "B. A programming language used for backend development.",
+        "C. A utility-first CSS framework for building responsive web interfaces.",
+        "D. A database management system for storing CSS styles."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "question": "What is the purpose of PropTypes?",
+      "options": [
+        "A. To ensure type safety in React components.",
+        "B. To improve performance in React applications.",
+        "C. To handle asynchronous operations in React.",
+        "D. To enable code reusability in React components."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 156,
+      "question": "What is the purpose of the initial state parameter in a Redux reducer function?",
+      "options": [
+        "A. To define the structure of the Redux store",
+        "B. To specify the actions that can be dispatched",
+        "C. To handle asynchronous operations",
+        "D. To define the initial state of the reducer"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 157,
+      "question": "What is the purpose of json-server in the context of setting up a server?",
+      "options": [
+        "A. To handle user input and interactions.",
+        "B. To display the website content.",
+        "C. To provide a static web server for serving JSON data.",
+        "D. To generate dynamic server responses."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "question": "What is the purpose of the next/link module in Next.js?",
+      "options": [
+        "A. It is used for handling form submissions.",
+        "B. It provides client-side routing capabilities.",
+        "C. It is responsible for server-side rendering.",
+        "D. It enables serverless function deployment."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "question": "What is the purpose of package.json in a Node.js project?",
+      "options": [
+        "A. It defines the project's dependencies and scripts",
+        "B. It contains the source code of the project",
+        "C. It configures the Node.js environment",
+        "D. It manages the project's build process"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 160,
+      "question": "What is the primary purpose of the tailwind.config.js file in a Tailwind CSS project?",
+      "options": [
+        "A. To define custom utility classes for HTML elements.",
+        "B. To configure and customize the default Tailwind CSS settings.",
+        "C. To handle CSS minification for production.",
+        "D. To install third-party plugins automatically."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "question": "What is the role of HTTP response codes in client-server communication?",
+      "options": [
+        "A. To indicate the status of the HTTP request",
+        "B. To manage state within a component",
+        "C. To handle server-side logic",
+        "D. To manage routing in a React application"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 162,
+      "question": "What is a prop in React used for?",
+      "options": [
+        "A. It defines the internal state of a component.",
+        "B. It specifies the visual appearance of a component.",
+        "C. It enables communication and data transfer between components.",
+        "D. It handles user interactions and events."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 163,
+      "question": "What is the purpose of a router in web development?",
+      "options": [
+        "A. To handle database operations",
+        "B. To manage user authentication",
+        "C. To handle navigation between different pages",
+        "D. To style the user interface"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "question": "What is the purpose of a server in a client-server architecture?",
+      "options": [
+        "A. To handle user input and interactions.",
+        "B. To display the website content.",
+        "C. To provide data and resources to clients.",
+        "D. To style the user interface."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 165,
+      "question": "What is React?",
+      "options": [
+        "A. A programming language",
+        "B. A JavaScript library for building user interfaces",
+        "C. A database management system",
+        "D. A web browser"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "question": "What is the purpose of Code Splitting in web development?",
+      "options": [
+        "A. To combine multiple code files into a single bundle",
+        "B. To improve web performance by loading only necessary code",
+        "C. To obfuscate code for security purposes",
+        "D. To enhance cross-browser compatibility"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 167,
+      "question": "What is the purpose of a container component in React?",
+      "options": [
+        "A. To handle UI rendering and user interactions",
+        "B. To fetch the data and passing to child component",
+        "C. To provide a visual representation of data",
+        "D. To encapsulate reusable UI components"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "question": "What is the purpose of the Redux middleware in React applications?",
+      "options": [
+        "A. To handle asynchronous actions and side effects",
+        "B. To define the structure of the Redux store",
+        "C. To connect React components to the Redux store",
+        "D. To manage component hierarchy"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 169,
+      "question": "What is the purpose of arrow functions in ES6?",
+      "options": [
+        "A. To bind the value of this inside a function",
+        "B. To create self-executing functions",
+        "C. To declare asynchronous functions",
+        "D. To define functions with a shorter syntax"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 170,
+      "question": "What are PropTypes in React?",
+      "options": [
+        "A. They are used for creating component classes.",
+        "B. They are used for defining the types of component props.",
+        "C. They are used for handling events in React.",
+        "D. They are used for manipulating the component's state."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "question": "What does the fallback prop in Suspense represent?",
+      "options": [
+        "A. The component to display while the lazy component is loading",
+        "B. The component to display when an error occurs during loading",
+        "C. The component to display when the lazy component is rendered",
+        "D. The component to display when Suspense is not supported"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 172,
+      "question": "What does the npx create-next-app command do?",
+      "options": [
+        "A. It creates a new React application",
+        "B. It creates a new Next.js application",
+        "C. It installs Tailwind CSS",
+        "D. It creates a new package.json in NextJS"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "question": "What does the catch method do in a promise chain?",
+      "options": [
+        "A. It handles the resolved value",
+        "B. It handles errors",
+        "C. It pauses the execution",
+        "D. It converts the promise to a synchronous function"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "question": "What does the render method in a React component do?",
+      "options": [
+        "A. It manages state updates",
+        "B. It handles side effects",
+        "C. It returns the JSX that describes the UI",
+        "D. It fetches data from an API"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 175,
+      "question": "What does the default case in the reducer function do?",
+      "options": [
+        "A. Resets the state",
+        "B. Handles unknown actions",
+        "C. Throws an error for unknown actions",
+        "D. Returns the current state"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 176,
+      "question": "What happens during the render phase of React's rendering process?",
+      "options": [
+        "A. The DOM is updated immediately",
+        "B. React calculates what to render but doesn't change the DOM yet",
+        "C. Side effects like \"useEffect\" are executed",
+        "D. Event listeners are removed"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 177,
+      "question": "What happens if a prop fails the validation defined by a simple property validator?",
+      "options": [
+        "A. An error will be thrown during runtime.",
+        "B. The prop will be automatically converted to the expected type.",
+        "C. The component will continue to function normally.",
+        "D. The validation will be bypassed, and the prop will be accepted."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 178,
+      "question": "What happens when you declare a function with the \"async\" keyword?",
+      "options": [
+        "A. It makes the function execute immediately",
+        "B. It tells the function to pause until all variables are declared",
+        "C. It makes the function return a Promise",
+        "D. It prevents any asynchronous code from running"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 179,
+      "question": "What happens if you forget to add key to items in a list rendered with map()?",
+      "options": [
+        "A. React will not render the list at all.",
+        "B. React will display a warning in the console about missing keys.",
+        "C. React will automatically assign keys to each item.",
+        "D. React will throw an error and stop rendering the component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "question": "What would happen if you didn't include the class=\"form-control\" in your <input> element?",
+      "options": [
+        "A. The input would not be submitted with the form",
+        "B. The input would fail client-side validation",
+        "C. The input field would revert to the browser's default styles",
+        "D. The input field would become non-responsive"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "question": "Which of the following is a feature of Next.js?",
+      "options": [
+        "A. A CSS framework for styling web applications.",
+        "B. A server-side rendering framework for React.",
+        "C. A state management library for React applications.",
+        "D. A testing framework for JavaScript applications."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "question": "Which of the following best explains the purpose of the tailwind.config.js file?",
+      "options": [
+        "A. To configure server-side rendering",
+        "B. To define custom utility classes and paths to template files",
+        "C. To manage JavaScript dependencies",
+        "D. To set up routing for the application"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 183,
+      "question": "Which of the following best describes Lazy Components?",
+      "options": [
+        "A. Components that are slow to render",
+        "B. Components that are loaded asynchronously",
+        "C. Components that are reusable across multiple projects",
+        "D. Components that are optimized for mobile devices"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 184,
+      "question": "Which of the following is a common use case for using Redux in a React application?",
+      "options": [
+        "A. Managing authentication and user sessions",
+        "B. Styling and layout of React components",
+        "C. Handling form validation and input tracking",
+        "D. Implementing server-side rendering in React"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 185,
+      "question": "Which of the following is the best use case for React Context?",
+      "options": [
+        "A. Passing props from a parent to a single child component.",
+        "B. Passing data to a component at the same level in the tree.",
+        "C. Sharing a theme setting across multiple nested components.",
+        "D. Updating a component's local state."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 186,
+      "question": "Which of the following is used to pass a function from a parent component to a child component?",
+      "options": [
+        "A. Passing a function as a prop to the child component.",
+        "B. Using useState hook in the child component.",
+        "C. Using useContext in both parent and child components.",
+        "D. Directly accessing the child component's state."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 187,
+      "question": "Which of the following could cause an Effect to run too frequently?",
+      "options": [
+        "A. Including all state variables in the dependency array.",
+        "B. Not using a dependency array.",
+        "C. Including a variable like data that changes often in the dependency array.",
+        "D. Omitting the dependency array altogether."
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": 188,
+      "question": "Which of the following is the correct way to use useSelector to access a value from the Redux store?",
+      "options": [
+        "A. const value = useSelector((store) => store.value);",
+        "B. const value = useSelector((state) => state.value);",
+        "C. const value = useSelector((context) => context.value);",
+        "D. const value = useSelector((redux) => redux.value);"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "question": "How do you declare multiple routes in React Router?",
+      "options": [
+        "A. By nesting <Route> components inside each other.",
+        "B. By using the <Routes> component instead of <Route>.",
+        "C. By using the path prop with multiple values in a single <Route> component.",
+        "D. By using an array of Route components inside the Routes component."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 190,
+      "question": "How do you import the useNavigate hook from React Router?",
+      "options": [
+        "A. import { useNavigate } from 'react-router';",
+        "B. import { useNavigate } from 'react-router-dom';",
+        "C. import { useNavigate } from 'react-router-native';",
+        "D. import { useNavigate } from 'react-navigation';"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 191,
+      "question": "How do you create a modal in Bootstrap?",
+      "options": [
+        "A. By using the <modal> HTML element.",
+        "B. By applying the .modal class to the container element.",
+        "C. By using the .modal class along with the data-bs-toggle=\"modal\" attribute.",
+        "D. By using JavaScript to dynamically create and show modal elements."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 192,
+      "question": "How do you include Tailwind CSS in a project?",
+      "options": [
+        "A. Link the Tailwind CSS stylesheet in the HTML file.",
+        "B. Import the Tailwind CSS file in the JavaScript code.",
+        "C. Use the @import rule in a CSS file to import Tailwind CSS.",
+        "D. Add Tailwind CSS as a dependency in the package.json file."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 193,
+      "question": "How do you create a new Next.js project?",
+      "options": [
+        "A. Use the create-next-app command-line tool.",
+        "B. Install the Next.js package globally with npm.",
+        "C. Clone the Next.js starter template from GitHub.",
+        "D. Use the npm init command and manually configure the project."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 194,
+      "question": "How do you create a responsive grid layout using Bootstrap?",
+      "options": [
+        "A. By using the <div class=\"grid\"> element.",
+        "B. By applying the .responsive-grid class to the container element.",
+        "C. By using the .row and .col-* classes to create rows and columns.",
+        "D. By manually specifying the width of each element using CSS."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 195,
+      "question": "How do you install Tailwind CSS in a project?",
+      "options": [
+        "A. Use the npm install tailwindcss command.",
+        "B. Include the Tailwind CSS CDN in the HTML file.",
+        "C. Install Tailwind CSS globally with npm.",
+        "D. Use the npx tailwindcss init command."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "question": "How do you install Tailwind CSS in a project? (variation question)",
+      "options": [
+        "A. Use the npx tailwindcss init command.",
+        "B. Include the Tailwind CSS CDN in the HTML file.",
+        "C. Install Tailwind CSS globally with npm.",
+        "D. Use the npm install tailwind-css command."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 197,
+      "question": "How do you wrap a lazy component with Suspense in React?",
+      "options": [
+        "A. Using the wrap prop of the Suspense component.",
+        "B. Using the fallback prop of the Suspense component.",
+        "C. Using the lazy prop of the Suspense component.",
+        "D. Using the component prop of the Suspense component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "question": "How can you access Chrome DevTools?",
+      "options": [
+        "A. By pressing F12 or right-clicking and selecting \"Inspect\"",
+        "B. By installing a Chrome extension.",
+        "C. By typing \"chrome://devtools\" in the address bar.",
+        "D. By opening the Chrome menu and selecting \"DevTools.\""
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 199,
+      "question": "How can you conditionally render content in JSX?",
+      "options": [
+        "A. By using the if statement",
+        "B. By using the for loop",
+        "C. By using the ternary operator {condition ? trueContent : falseContent}",
+        "D. By using the switch statement"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 200,
+      "question": "How can you create a new Git repository?",
+      "options": [
+        "A. By running \"git init\" in the project directory",
+        "B. By adding a remote repository URL",
+        "C. By cloning an existing repository",
+        "D. By committing changes using \"git commit -m\""
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 201,
+      "question": "How can you set up Git for version control?",
+      "options": [
+        "A. By running \"npm install git\"",
+        "B. By downloading Git from the official website",
+        "C. By using a Git GUI client",
+        "D. By configuring Git settings in Visual Studio Code"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 202,
+      "question": "How can you configure Tailwind CSS in a Next.js project?",
+      "options": [
+        "A. By importing a CSS file directly in the component",
+        "B. By installing the Tailwind CSS package and creating a configuration file",
+        "C. By using a CDN link in the HTML file",
+        "D. By installing a Tailwind CSS plugin for Next.js"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 203,
+      "question": "Why should you avoid using too many lazy components in your application?",
+      "options": [
+        "A. Because it results in multiple HTTP requests, slowing down the application.",
+        "B. Because it decreases the performance by loading everything upfront.",
+        "C. Because it makes the code difficult to debug.",
+        "D. Because it affects the layout and styling of components."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 204,
+      "question": "How can the useEffect hook be optimized for cleanup actions?",
+      "options": [
+        "A. By passing an empty array as the second argument",
+        "B. By using a class-based component",
+        "C. By calling it after every render",
+        "D. By manually removing event listeners"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 205,
+      "question": "How do you declare a route in React Router?",
+      "options": [
+        "A. Using <Link path=\"/\" element={<Home />} />",
+        "B. Using <Route path=\"/\" element={<Home />} />",
+        "C. Using <Routes path=\"/\" element={<Home />} />",
+        "D. Using <context path=\"/\" /><context/><suspense>/home"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 206,
+      "question": "How can you optimize performance when using Hooks in React?",
+      "options": [
+        "A. By using the useMemo and useCallback Hooks.",
+        "B. By avoiding unnecessary re-renders with the memo Hook.",
+        "C. By using the useLayoutEffect Hook instead of useEffect.",
+        "D. By using the useDebugValue Hook for debugging purposes."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 207,
+      "question": "How can you install React-Bootstrap in your ReactJS project?",
+      "options": [
+        "A. By using npm or yarn to install the package.",
+        "B. By downloading the React-Bootstrap files from a website.",
+        "C. By copying and pasting the React-Bootstrap code into your project.",
+        "D. By using a CDN link to include React-Bootstrap in your HTML file."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 208,
+      "question": "How can you create a new React application using Create React App?",
+      "options": [
+        "A. By running \"npm create-react-app my-app\"",
+        "B. By downloading a ZIP file from the official website",
+        "C. By using an online code editor",
+        "D. By cloning a Git repository"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 209,
+      "question": "How can you define a lazy component in React?",
+      "options": [
+        "A. Using the lazy function from the React library",
+        "B. Wrapping the component in the LazyComponent higher-order component",
+        "C. Importing the component with the lazy keyword",
+        "D. Using the createLazyComponent method from the React package"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 210,
+      "question": "How can route parameters be defined in React Router?",
+      "options": [
+        "A. By using the params prop in the <Route> component",
+        "B. By accessing them directly from the URL",
+        "C. By using the path prop with placeholders in the <Route> component",
+        "D. By using the match object passed to the component"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 211,
+      "question": "How would you create a custom Hook in React?",
+      "options": [
+        "A. By defining a function that uses other built-in Hooks.",
+        "B. By extending the React.Component class.",
+        "C. By wrapping a class component with a functional component.",
+        "D. By using the createCustomHook() function."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 212,
+      "question": "Why use React-Bootstrap?",
+      "options": [
+        "A. It easier to manage the state as updates are made using React's state.",
+        "B. It is faster and more efficient than other UI libraries.",
+        "C. It is compatible with all browsers and devices.",
+        "D. It is developed by Facebook and has a large community support."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 213,
+      "question": "Why are frameworks like React, Angular, or Vue popular among developers?",
+      "options": [
+        "A. They only work with static content",
+        "B. They allow building dynamic, responsive, and efficient web applications",
+        "C. They focus on database management",
+        "D. They are used exclusively for creating server-side logic"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 214,
+      "question": "In Next.js, what mechanism primarily determines the routes in an application?",
+      "options": [
+        "A. Explicit configuration in a central routes.json file.",
+        "B. File-system routing, where routes are determined by the structure of files",
+        "C. Dynamic route declarations using React Router.",
+        "D. Server-side API endpoints only"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 215,
+      "question": "In JSX, which of the following is correct?",
+      "options": [
+        "A. You must always wrap JSX in a single root element",
+        "B. You can use multiple root elements without any wrapping",
+        "C. JSX tags can be self-closing only for non-void elements",
+        "D. JSX does not support attributes like className"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 216,
+      "question": "Compare the use of Redux and Flux for state management. Which statement is true?",
+      "options": [
+        "A. Redux uses multiple stores, while Flux uses a single store.",
+        "B. Flux uses multiple stores, while Redux uses a single store.",
+        "C. Both Redux and Flux use multiple stores.",
+        "D. Both Redux and Flux use a single store."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 217,
+      "question": "Compare the use of Container and Container fluid in React-Bootstrap. Which statement is accurate?",
+      "options": [
+        "A. Container is always 100% wide.",
+        "B. Container fluid is fixed-width at all breakpoints.",
+        "C. Container fluid is 100% wide at all breakpoints.",
+        "D. Container is 100% wide at all breakpoints."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 218,
+      "question": "Create a React component that displays a list of items passed as props. Which approach would you use?",
+      "options": [
+        "A. Use a functional component with the map method.",
+        "B. Use a class component with componentDidMount.",
+        "C. Use a higher-order component.",
+        "D. Use a lifecycle method to fetch data."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 219,
+      "question": "Can you define multiple Type and Value validators for a single prop in PropTypes?",
+      "options": [
+        "A. Yes, you can define multiple validators for a prop.",
+        "B. No, you can only define one validator for a prop.",
+        "C. Yes, but it's not recommended for code readability.",
+        "D. No, Type and Value validators cannot be used together."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 220,
+      "question": "In Redux, how do you update the state immutably?",
+      "options": [
+        "A. By directly modifying the state object.",
+        "B. By using the setState() method.",
+        "C. By using the splice() method.",
+        "D. By creating a new copy of the state object."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 221,
+      "question": "In React, what is the role of Suspense?",
+      "options": [
+        "A. To handle errors in asynchronous rendering.",
+        "B. To control the rendering of lazy components.",
+        "C. To manage state in functional components.",
+        "D. To handle network requests and API calls."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 222,
+      "question": "In React Router, how do you define a nested route structure within a parent component?",
+      "options": [
+        "A. Utilize the <Switch> component to handle nested routes",
+        "B. Implement a routing table using an array of route objects",
+        "C. Use the <Route> component with nested <Route> components",
+        "D. Direct routes using query parameters in URL path names"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 223,
+      "question": "In Redux, when should you use combineReducers?",
+      "options": [
+        "A. When you want to connect the Redux store to a React component.",
+        "B. When you want to manage actions in the Redux application.",
+        "C. When you want to split a reducer into smaller reducers.",
+        "D. When you want to use Redux DevTools to track the state."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 224,
+      "question": "Next.js is primarily used for:",
+      "options": [
+        "A. Styling static websites",
+        "B. Creating server-rendered or statically generated React applications",
+        "C. Managing back-end databases",
+        "D. Handling real-time communication"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 225,
+      "question": "One of the main characteristics of React-Bootstrap is \"Component-Based\". What does this imply?",
+      "options": [
+        "A. React-Bootstrap only provides components for CSS styling",
+        "B. It enables developers to create modular and reusable UI elements as React components.",
+        "C. It requires custom JavaScript to be written for each component.",
+        "D. Components can only be used once in the application"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 226,
+      "question": "What is the main purpose of code splitting in a React application?",
+      "options": [
+        "A. To make the code easier to read",
+        "B. To bundle all components into a single large file",
+        "C. To reduce the initial load time by loading parts of the app only when needed",
+        "D. To split CSS and JavaScript into separate files"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 227,
+      "question": "What is the main purpose of React in modern web development, and what type of applications does it best support?",
+      "options": [
+        "A. It is mainly designed for handling backend logic and database management",
+        "B. React helps build interactive user interfaces, especially for SPAs.",
+        "C. React primarily functions as a server-side rendering engine for web applications.",
+        "D. It is mainly a mobile development framework and not suitable for web applications."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 228,
+      "question": "What is the primary purpose of Next.js?",
+      "options": [
+        "A. To enable server-side rendering and generate static websites.",
+        "B. To manage state in React applications.",
+        "C. To provide a UI component library.",
+        "D. To create database schemas."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 229,
+      "question": "What is one major benefit of using front-end frameworks like React or Vue.js?",
+      "options": [
+        "A. They eliminate the need for HTML",
+        "B. They allow for faster development by providing pre-built components",
+        "C. They only work on mobile applications",
+        "D. They focus solely on server-side development"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 230,
+      "question": "What is the purpose of React.Fragment or shorthand <> </> in React? (Select all that apply)",
+      "options": [
+        "A. Fragments allow you to group multiple elements without adding an extra node to the DOM.",
+        "B. Fragments allow you to provide CSS styling to multiple elements.",
+        "C. Fragments allow you to handle state management in React.",
+        "D. Fragments are particularly useful for avoiding unnecessary <div> elements, which can clutter your markup."
+      ],
+      "answers": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "id": 231,
+      "question": "What is one of the primary benefits of using Promises in JavaScript for asynchronous operations?",
+      "options": [
+        "A. It allows direct modification of the DOM",
+        "B. It makes synchronous code asynchronous.",
+        "C. It helps solve the \"callback hell\" problem by allowing chains of asynchronous operations.",
+        "D. It ensures data is always instantaneously available."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 232,
+      "question": "What is the primary purpose of Redux Thunk in a React-Redux application?",
+      "options": [
+        "A. To connect React components directly to the Redux store without the need for action creators or reducers.",
+        "B. To provide a way to store and manage the application's state on the server-side, separate from the client-side state.",
+        "C. To enable creating action creators that return functions (for asynchronous operations like API calls) instead of plain action objects.",
+        "D. To automatically generate the code for action creators and reducers based on the application's data structure."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 233,
+      "question": "What is a key characteristic of network operations in client-server communication that developers must recognize?",
+      "options": [
+        "A. Data is always instantaneously available.",
+        "B. Network operations inherently cause unexpected delays and are asynchronous",
+        "C. Communication is always synchronous and predictable.",
+        "D. Client-server communication primarily focuses on local data storage."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 234,
+      "question": "What is the main purpose of the Bootstrap framework in web development?",
+      "options": [
+        "A. To manage back-end data",
+        "B. To provide pre-designed responsive layout components and styles for front-end development",
+        "C. To perform server-side scripting",
+        "D. To enable database management in web applications"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 235,
+      "question": "What is a key differentiating characteristic of Tailwind CSS compared to traditional CSS frameworks like Bootstrap, as described in the sources?",
+      "options": [
+        "A. It provides a comprehensive set of pre-built components for rapid development",
+        "B. It enforces strict design patterns to maintain visual consistency",
+        "C. It offers a huge list of utility CSS classes, providing more freedom for custom designs",
+        "D. It relies heavily on JavaScript for styling and layout management"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 236,
+      "question": "What is a Higher-Order Component (HOC) in React?",
+      "options": [
+        "A. A component that has a higher visual hierarchy than others.",
+        "B. A function that takes a component as an argument and returns a new component with enhanced functionality.",
+        "C. A component that only renders other components without any logic of its own.",
+        "D. A built-in React component for advanced routing."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 237,
+      "question": "What is the primary goal of decoupling route declarations in a React Router application?",
+      "options": [
+        "A. To improve the organization and maintainability of the code by separating routes into larger, more manageable modules.",
+        "B. To enhance the security of the application by separating sensitive routes from public routes.",
+        "C. To enable the use of dynamic routing and nested routes in the application.",
+        "D. To enhance code organization and maintainability by separating routes into smaller, more manageable modules."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 238,
+      "question": "What is JSX in React primarily used for?",
+      "options": [
+        "A. Defining server-side logic and database queries",
+        "B. Describing the user interface structure and embedding HTML-like markup directly within JavaScript code.",
+        "C. Managing application-wide state using a global store",
+        "D. Optimizing image loading and asset management"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 239,
+      "question": "What is async/await in JavaScript?",
+      "options": [
+        "A. It is a JavaScript feature that makes asynchronous code look and behave like synchronous code.",
+        "B. It is used to send data to a server without blocking the UI.",
+        "C. It is a way to handle callback functions.",
+        "D. It is a method to manage state in React components."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 240,
+      "question": "What is the main feature of Tailwind CSS compared to other CSS frameworks?",
+      "options": [
+        "A. It provides pre-designed UI components and themes",
+        "B. It uses a utility-first approach, allowing developers to build custom designs using small utility classes",
+        "C. It provides pre-built JavaScript components",
+        "D. It is a framework specifically for mobile development"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 241,
+      "question": "What is the role of the BrowserRouter component in React Router?",
+      "options": [
+        "A. To define a route in the application",
+        "B. To wrap the entire application and enable routing using the HTML5 History API",
+        "C. To handle form submissions",
+        "D. To manage state within a component"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 242,
+      "question": "What is React-Bootstrap?",
+      "options": [
+        "A. It combines the flexibility and power of the Bootstrap framework with the dynamic nature of React.",
+        "B. It is a programming language used for back-end development.",
+        "C. It is a database management system for React applications.",
+        "D. It is a version control system for React projects."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 243,
+      "question": "What is the difference between the render() method and the commit() method in React?",
+      "options": [
+        "A. The render() method defines the component's structure, while the commit() method handles side effects.",
+        "B. The render() method handles events, while the commit() method defines the component's structure.",
+        "C. The render() method is called before the component is mounted, while the commit() method is called after the component is mounted.",
+        "D. There is no commit() method in React."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 244,
+      "question": "What is the purpose of React Hooks?",
+      "options": [
+        "A. Hooks are functions that are part of the React library.",
+        "B. React didn't have a simple way to share reusable functionality between components.",
+        "C. Solutions such as higher-order components and render props.",
+        "D. Using classes to be unnecessarily confusing and verbose."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 245,
+      "question": "What is the purpose of the componentDidMount method in React?",
+      "options": [
+        "A. It is called after the component's render method has been executed.",
+        "B. It is called before the component's render method is executed.",
+        "C. It is called when the component is about to be unmounted from the DOM.",
+        "D. It is called when the component is about to be updated and re-rendered."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 246,
+      "question": "What is the difference between controlled and uncontrolled components in React-Bootstrap?",
+      "options": [
+        "A. Controlled components are stateless and rely on external state management, while uncontrolled components manage their own state internally.",
+        "B. Controlled components have predefined behavior and cannot be customized, while uncontrolled components offer more flexibility.",
+        "C. Controlled components are faster and more efficient than uncontrolled components.",
+        "D. Uncontrolled components are recommended for complex forms, while controlled components are suitable for simple forms."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 247,
+      "question": "What is the advantage of event pooling in React?",
+      "options": [
+        "A. It reduces memory usage by reusing event objects.",
+        "B. It improves event handling performance by creating new event objects for each event.",
+        "C. It simplifies event handling by providing a pool of event handlers.",
+        "D. It allows for better management of event contexts."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 248,
+      "question": "What is the purpose of the exact prop in a Route component?",
+      "options": [
+        "A. It specifies the component to render for a specific route.",
+        "B. It ensures that the route matches the URL exactly, without partial matching.",
+        "C. It defines a redirect to another route.",
+        "D. It enables code splitting for the route component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 249,
+      "question": "What is the purpose of the next/link module in Next.js?",
+      "options": [
+        "A. It is used for handling form submissions.",
+        "B. It provides client-side routing capabilities.",
+        "C. It is responsible for server-side rendering.",
+        "D. It enables serverless function deployment."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 250,
+      "question": "What is the main purpose of the await keyword within an async function?",
+      "options": [
+        "A. To return a new Promise object.",
+        "B. To immediately execute the next line of code without waiting.",
+        "C. To pause the execution of the async function until the Promise it's waiting for is resolved or rejected.",
+        "D. To define a synchronous block of code."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 251,
+      "question": "What is the primary purpose of a router in a web application?",
+      "options": [
+        "A. To manage state within a component",
+        "B. To respond to a URL based on a set of route handler declarations",
+        "C. To handle server-side logic",
+        "D. To manage routing in a React application"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 252,
+      "question": "What is the advantage of using Axios over fetch?",
+      "options": [
+        "A. Axios has better support for handling requests and responses.",
+        "B. Axios requires less boilerplate code.",
+        "C. Axios is faster than fetch for all types of HTTP requests.",
+        "D. Axios does not support promises."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 253,
+      "question": "What is the core principle of Redux?",
+      "options": [
+        "A. Single source of truth and unidirectional data flow.",
+        "B. Multiple sources of truth for each component.",
+        "C. State is mutable and can be directly modified.",
+        "D. State is only updated using the useState hook."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 254,
+      "question": "What is the difference between the HTTP response codes 401 and 403?",
+      "options": [
+        "A. 401 the request is missing valid authentication credentials, while 403 the server refuses to authorize.",
+        "B. 401 the server encountered an internal error, while 403 means the requested resource was not found.",
+        "C. 401 the request was successful, while 403 means the request was not modified.",
+        "D. 401 and 403 are interchangeable and have the same meaning."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 255,
+      "question": "What happens when you use the xs prop on a Col component in React-Bootstrap?",
+      "options": [
+        "A. The column will only have its width defined on extra-large screens.",
+        "B. The column will only have its width defined on extra-small screens, and larger sizes will ignore it.",
+        "C. The column will have its width defined on extra-small screens and will apply to larger sizes if no specific breakpoint is defined.",
+        "D. The xs prop does not exist in React-Bootstrap."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 256,
+      "question": "What does the useNavigate hook return?",
+      "options": [
+        "A. An object with navigation methods.",
+        "B. A navigate function that can be used to navigate to a new location.",
+        "C. A boolean indicating navigation status.",
+        "D. A string representing the current route."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 257,
+      "question": "What happens if a component tries to consume a context that has not been provided higher up in the component tree?",
+      "options": [
+        "A. The component receives a default value specified in the context definition.",
+        "B. The component throws an error.",
+        "C. The component receives an empty object as the context value.",
+        "D. The component receives null as the context value."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 258,
+      "question": "What advantage does using a reducer function have over directly managing state with useState?",
+      "options": [
+        "A. It makes code shorter and less complex for simple state updates.",
+        "B. It consolidates all state logic in one place, which is beneficial for components with complex state updates.",
+        "C. It automatically optimizes rendering performance.",
+        "D. It only works with global state, not local component state."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 259,
+      "question": "What unique capability does Redux Thunk middleware provide for action creators?",
+      "options": [
+        "A. It allows action creators to return an immutable state object",
+        "B. It enables action creators to directly modify the global state",
+        "C. It allows action creators to return a function instead of a plain action object.",
+        "D. It automatically dispatches actions without needing a dispatch function."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 260,
+      "question": "Which of the following best describes a reducer in Redux?",
+      "options": [
+        "A. A function that triggers actions in response to user interactions",
+        "B. A component that manages the application's state",
+        "C. A function that specifies how the application's state changes in response to actions",
+        "D. A middleware that handles asynchronous operations in Redux"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 261,
+      "question": "Which of the following statements about reducers in Redux is true?",
+      "options": [
+        "A. Reducers can only be used with React class components, not functional components.",
+        "B. Reducers are responsible for dispatching actions.",
+        "C. Reducers should have side effects such as API calls or database interactions.",
+        "D. Reducers must be pure functions with no side effects."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 262,
+      "question": "Which of the following statements about Redux selectors is true?",
+      "options": [
+        "A. Selectors are responsible for dispatching actions.",
+        "B. Selectors are used to modify the Redux store directly.",
+        "C. Selectors are pure functions that derive specific data from the Redux store.",
+        "D. Selectors are only used in React class components."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 263,
+      "question": "How are PropTypes typically integrated into a functional React component?",
+      "options": [
+        "A. By declaring them within the component's return statement.",
+        "B. By installing react-proptypes and using this.props.propTypes inside the function.",
+        "C. By defining a propTypes property on the component function itself, usually after its declaration, to specify prop type definitions.",
+        "D. PropTypes cannot be used with functional components."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 264,
+      "question": "How can you configure Tailwind CSS in a Next.js project?",
+      "options": [
+        "A. By importing a CSS file directly in the component.",
+        "B. By installing the Tailwind CSS package and creating a configuration file.",
+        "C. By using a CDN link in the HTML file.",
+        "D. By installing a Tailwind CSS plugin for Next.js."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 265,
+      "question": "How can you render JSX in a React component?",
+      "options": [
+        "A. By using the renderJSX() function.",
+        "B. By passing the JSX as a string to the ReactDOM.render() function.",
+        "C. By enclosing the JSX in curly braces {} within the component's render() method.",
+        "D. By using the React.render() function."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 266,
+      "question": "How can you perform initialization and cleanup actions using the useEffect Hook?",
+      "options": [
+        "A. By returning a cleanup function from the useEffect callback.",
+        "B. By passing an empty dependency array as the second parameter to useEffect.",
+        "C. By wrapping the useEffect callback in a try-catch block.",
+        "D. By using the useCleanupEffect Hook instead of useEffect."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 267,
+      "question": "How can you configure Git with your name and email address?",
+      "options": [
+        "A. By running \"git config --global user.name \"Your Name\"\" and \"git config --global user.email \"Your Email\"\"",
+        "B. By creating a .gitignore file.",
+        "C. By committing changes using \"git commit -m\".",
+        "D. By pushing changes to a remote repository."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 268,
+      "question": "How can you use a fragment in JSX?",
+      "options": [
+        "A. By wrapping the JSX elements with <div> tags.",
+        "B. By using the shorthand syntax <> </> or <React.Fragment>...</React.Fragment>.",
+        "C. By creating a separate component for each element.",
+        "D. By using the fragment() function."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 269,
+      "question": "How do you create a dynamic route in Next.js?",
+      "options": [
+        "A. By using useRouter() and manually specifying the route.",
+        "B. By creating a file with square brackets in the pages directory, e.g., [id].js.",
+        "C. By defining a route in the next.config.js file.",
+        "D. By using React Router's Route component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 270,
+      "question": "How do you create a responsive grid layout using Bootstrap?",
+      "options": [
+        "A. By using the <div class=\"grid\"> element.",
+        "B. By applying the .responsive-grid class to the container element.",
+        "C. By using the .row and .col-* classes to create rows and columns.",
+        "D. By manually specifying the width of each element using CSS."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 271,
+      "question": "How do you create a modal in Bootstrap?",
+      "options": [
+        "A. By using the <modal> HTML element.",
+        "B. By applying the .modal class to the container element.",
+        "C. By using the .modal class along with the data-bs-toggle=\"modal\" attribute.",
+        "D. By using JavaScript to dynamically create and show modal elements."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 272,
+      "question": "How do you declare multiple routes in React Router?",
+      "options": [
+        "A. By nesting <Route> components inside each other.",
+        "B. By using the <Routes> component instead of <Route>.",
+        "C. By using the path prop with multiple values in a single <Route> component.",
+        "D. By using an array of Route components inside the Routes component."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 273,
+      "question": "How do you create a tooltip in Bootstrap?",
+      "options": [
+        "A. By using the <tooltip> HTML element.",
+        "B. By applying the .tooltip class to the container element.",
+        "C. By using the data-bs-toggle=\"tooltip\" attribute along with the title attribute.",
+        "D. By using JavaScript to dynamically create and show tooltip elements."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 274,
+      "question": "How do you include Tailwind CSS in a project?",
+      "options": [
+        "A. Link the Tailwind CSS stylesheet in the HTML file.",
+        "B. Import the Tailwind CSS file in the JavaScript code.",
+        "C. Use the @import rule in a CSS file to import Tailwind CSS.",
+        "D. Add Tailwind CSS as a dependency in the package.json file."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 275,
+      "question": "How does the Grid component in React-Bootstrap help in creating a responsive layout?",
+      "options": [
+        "A. Defines a flexible grid system with rows and columns that auto-adjust by screen size",
+        "B. Provides pre-built responsive layouts",
+        "C. Auto resizes and repositions elements",
+        "D. Aligns elements vertically and horizontally"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 276,
+      "question": "How does Next.js's server-side rendering capability primarily benefit web applications?",
+      "options": [
+        "A. By offloading all rendering tasks to the client's browser",
+        "B. By eliminating the need for any server infrastructure",
+        "C. By resulting in faster initial page load times and better search engine optimization (SEO)",
+        "D. By simplifying complex client-side state management."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 277,
+      "question": "How does the Bootstrap grid system help in designing responsive websites?",
+      "options": [
+        "A. Provides pre-designed website templates",
+        "B. Auto-adjusts font sizes",
+        "C. Adapts layout to screen sizes using 12-column responsive grid",
+        "D. Optimizes website for search engines"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 278,
+      "question": "How does Tailwind CSS's utility-first approach differ from traditional CSS frameworks that offer pre-designed components?",
+      "options": [
+        "A. Tailwind CSS provides a set of pre-designed components that can be customized with utility classes, while traditional frameworks offer more flexibility in creating custom designs.",
+        "B. Tailwind CSS provides low-level utility classes for styling, while traditional frameworks offer pre-built components with limited customization.",
+        "C. Tailwind CSS relies on JavaScript to generate styles dynamically, while traditional frameworks use static CSS files.",
+        "D. Tailwind CSS is primarily used for server-side rendering, while traditional frameworks are better suited for client-side rendering."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 279,
+      "question": "How would you combine fluid and pixel widths behaviors in a grid layout using Bootstrap5?",
+      "options": [
+        "A. Use .container-fluid for entire layout",
+        "B. Combine .container with .col-fluid",
+        "C. Use fixed-width class with media query",
+        "D. Use .container-md to apply responsive container at md breakpoint"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 280,
+      "question": "Why use React-Bootstrap?",
+      "options": [
+        "A. Developed by Facebook with large community support",
+        "B. Easier state management with React's state",
+        "C. Compatible with all browsers and devices",
+        "D. Faster and more efficient than other UI libraries"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 281,
+      "question": "When writing a custom PropTypes validator function, what should it return upon successful validation and upon failure?",
+      "options": [
+        "A. It should return true for success and false for failure.",
+        "B. It should return the validated value for success and undefined for failure.",
+        "C. It should return null for success and an Error object for failure.",
+        "D. It should return a success message string for success and an error message string for failure."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 282,
+      "question": "When should the useReducer() Hook be used instead of useState()?",
+      "options": [
+        "A. When components require simple, independent state values.",
+        "B. When performing initialization and cleanup actions",
+        "C. When there is complex state logic, several sub-values, or when the upcoming state depends on the previous state",
+        "D. When sharing data across a component hierarchy without prop"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 283,
+      "question": "When declaring routes in React Router, what are Routes and Route components used for?",
+      "options": [
+        "A. Routes is for styling, and Route is for defining event handlers.",
+        "B. Routes is for managing state, and Route is for rendering components.",
+        "C. Routes is used to wrap Route components and define the application's routes, while Route is used to define an individual route.",
+        "D. Routes is for client-side logic, and Route is for server-side logic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 284,
+      "question": "Analyze the differences between Flux and MVC architectures. Which statement is true?",
+      "options": [
+        "A. Flux enforces unidirectional data flow, while MVC allows bidirectional data flow",
+        "B. MVC enforces unidirectional data flow, while Flux allows bidirectional",
+        "C. Both Flux and MVC enforce unidirectional",
+        "D. Both Flux and MVC allow bidirectional"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 285,
+      "question": "Assess the impact of using inline event handlers in React components. Which statement is true?",
+      "options": [
+        "A. Inline event handlers improve performance by reducing the number of function calls",
+        "B. Inline event handlers can lead to performance issues due to the creation of new functions on each render",
+        "C. Inline event handlers are the only way to handle events in React",
+        "D. Inline event handlers are more secure than named event handlers"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 286,
+      "question": "According to Redux's main principles, how should changes to the application's state be made?",
+      "options": [
+        "A. Directly by modifying the state object in any component.",
+        "B. Through setters that directly update the state.",
+        "C. Only through actions, with changes made by pure functions that return a new state without mutating the previous one.",
+        "D. By calling setState() on the Redux store directly."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 287,
+      "question": "Can PropTypes be used for both functional and class components?",
+      "options": [
+        "A. Yes, PropTypes can be used in both types of components",
+        "B. No, only functional",
+        "C. No, only class",
+        "D. Yes, but syntax differs"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 288,
+      "question": "Describe the concept of fragments in JSX. Which best explains their purpose?",
+      "options": [
+        "A. Group multiple elements without adding extra nodes to the DOM",
+        "B. Used to style JSX elements",
+        "C. Used to manage state",
+        "D. Used to handle async ops"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 289,
+      "question": "If you wanted to customize the size of the form controls, what would you do in Bootstrap5?",
+      "options": [
+        "A. Set width in inline CSS",
+        "B. Use the rows and cols attributes for all form elements",
+        "C. Use the size variants of the .form-control class, like .form-control-sm or .form-control-lg",
+        "D. Apply custom JavaScript functions"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 290,
+      "question": "Evaluate differences between Fetch API and Axios. Which statement is true?",
+      "options": [
+        "A. Fetch auto handles JSON, Axios requires manual parsing",
+        "B. Axios provides built-in support for request/response interception, Fetch does not",
+        "C. Fetch supports auto retries, Axios does not",
+        "D. Axios built into browsers, Fetch needs library"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 291,
+      "question": "Explain the difference between using async/await and traditional Promises (.then and .catch) for handling asynchronous operations in JavaScript.",
+      "options": [
+        "A. async/await makes async code more readable, while Promises use a callback-based approach.",
+        "B. async/await is used for synchronous operations, while Promises are used for asynchronous operations.",
+        "C. async/await can only be used with the window.fetch API, while Promises can be used with any asynchronous function.",
+        "D. async/await is a newer feature that completely replaces Promises in modern JavaScript."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 292,
+      "question": "In React 18, how can you pass additional arguments to an event handler?",
+      "options": [
+        "A. Using event.target",
+        "B. Using event.data",
+        "C. Using bind method when binding the handler",
+        "D. Not supported"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 293,
+      "question": "The purpose of JSX is to:",
+      "options": [
+        "A. Make JavaScript code more readable by embedding HTML in JavaScript",
+        "B. Make JavaScript run faster",
+        "C. Encrypt HTML elements",
+        "D. Handle server-side logic"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 294,
+      "question": "[Using Bootstrap] How does the for attribute in <label> work, and why is it important?",
+      "options": [
+        "A. Styles the label",
+        "B. Links the label to form control via control's id, improving accessibility",
+        "C. Adds inline validation",
+        "D. Triggers JS events"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 295,
+      "question": "Understand the role of the render method in JSX. Which best explains its use?",
+      "options": [
+        "A. Compile JSX into JavaScript",
+        "B. Convert JSX into HTML and render it to DOM",
+        "C. Manage state in components",
+        "D. Handle routing in React"
+      ],
+      "answer": "B"
+    }
+  ]
+}
