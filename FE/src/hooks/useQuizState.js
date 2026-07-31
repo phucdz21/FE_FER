@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import rawDbData from '../data/db.json';
+import { checkIsCorrect } from '../utils/quizUtils';
 
 const STORAGE_KEYS = {
   ANSWERS: 'fer202_user_answers',
@@ -71,15 +72,12 @@ export function useQuizState() {
   }, [questions]);
 
   // Answer a question in Practice Mode
-  const answerQuestion = useCallback((questionId, optionLetter) => {
-    setUserAnswers((prev) => {
-      const updated = { ...prev, [questionId]: optionLetter };
-      return updated;
-    });
+  const answerQuestion = useCallback((questionId, answerValue) => {
+    setUserAnswers((prev) => ({ ...prev, [questionId]: answerValue }));
 
     const targetQuestion = questionsById.get(questionId);
     if (targetQuestion) {
-      const isCorrect = optionLetter === targetQuestion.answer;
+      const isCorrect = checkIsCorrect(answerValue, targetQuestion);
       if (!isCorrect) {
         setIncorrectQuestions((prev) => {
           if (!prev.includes(questionId)) {
@@ -135,9 +133,10 @@ export function useQuizState() {
     currentExam.questionIds.forEach((qId) => {
       const q = questionsById.get(qId);
       const userChoice = examAnswers[qId];
-      if (q && userChoice === q.answer) {
+      const isCorrect = checkIsCorrect(userChoice, q);
+      if (q && isCorrect) {
         score += 1;
-      } else if (q && userChoice && userChoice !== q.answer) {
+      } else if (q && userChoice) {
         newIncorrectFromExam.push(qId);
       }
     });
@@ -190,7 +189,7 @@ export function useQuizState() {
     Object.entries(userAnswers).forEach(([qIdStr, choice]) => {
       const q = questionsById.get(Number(qIdStr));
       if (q) {
-        if (choice === q.answer) correctCount += 1;
+        if (checkIsCorrect(choice, q)) correctCount += 1;
         else incorrectCount += 1;
       }
     });
