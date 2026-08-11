@@ -102,7 +102,7 @@ export function ExamView({
               Bài Kiểm Tra Thử (50 Câu Ngẫu Nhiên)
             </h2>
             <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-              Hệ thống sẽ chọn ngẫu nhiên 50 câu hỏi từ ngân hàng 295 câu hỏi FER202 để đánh giá năng lực của bạn.
+              Hệ thống sẽ chọn ngẫu nhiên 50 câu hỏi từ ngân hàng câu hỏi WDU203c để đánh giá năng lực của bạn.
             </p>
           </div>
 

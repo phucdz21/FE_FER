@@ -69,10 +69,10 @@ export function Navbar({
               </div>
               <div>
                 <h1 className="font-extrabold text-lg sm:text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-brand-300 to-indigo-300">
-                  FER202 Quiz Master
+                  WDU Quiz Master
                 </h1>
                 <p className="text-xs text-slate-400 font-medium hidden sm:block">
-                  Ôn luyện ReactJS Interactive ({stats.totalQuestionsCount} câu hỏi)
+                  Ôn luyện WDU203c Interactive ({stats.totalQuestionsCount} câu hỏi)
                 </p>
               </div>
             </div>

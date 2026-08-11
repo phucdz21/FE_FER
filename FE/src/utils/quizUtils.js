@@ -1,5 +1,5 @@
 /**
- * Helper utilities for FER202 Quiz App
+ * Helper utilities for WDU Quiz App
  */
 
 // Extract list of correct answer letters for a question (e.g. ['A', 'B'])
@@ -18,10 +18,15 @@ export function getCorrectAnswers(question) {
 
   // Check 'answer' string field
   if (typeof question.answer === 'string') {
-    if (question.answer.includes(',')) {
-      return question.answer.split(',').map((a) => a.trim().toUpperCase());
+    const trimmed = question.answer.trim().toUpperCase();
+    if (trimmed.includes(',')) {
+      return trimmed.split(',').map((a) => a.trim().toUpperCase());
     }
-    return [question.answer.trim().toUpperCase()];
+    // Handle concatenated letter combos like 'AC', 'ABD', 'BCDE'
+    if (/^[A-Z]{2,5}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
+      return trimmed.split('');
+    }
+    return [trimmed];
   }
 
   return [];
@@ -29,6 +34,7 @@ export function getCorrectAnswers(question) {
 
 // Check if a question requires selecting multiple answers
 export function isMultiAnswer(question) {
+  if (question && question.multiple_answers) return true;
   return getCorrectAnswers(question).length > 1;
 }
 
@@ -43,10 +49,13 @@ export function checkIsCorrect(userChoice, question) {
   if (Array.isArray(userChoice)) {
     userArr = userChoice.map((c) => String(c).trim().toUpperCase());
   } else if (typeof userChoice === 'string') {
-    if (userChoice.includes(',')) {
-      userArr = userChoice.split(',').map((c) => c.trim().toUpperCase());
+    const trimmed = userChoice.trim().toUpperCase();
+    if (trimmed.includes(',')) {
+      userArr = trimmed.split(',').map((c) => c.trim().toUpperCase());
+    } else if (/^[A-Z]{2,5}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
+      userArr = trimmed.split('');
     } else {
-      userArr = [userChoice.trim().toUpperCase()];
+      userArr = [trimmed];
     }
   }
 

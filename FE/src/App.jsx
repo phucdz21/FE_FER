@@ -111,8 +111,8 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>FER202 ReactJS Interactive Quiz Master &copy; {new Date().getFullYear()}</span>
-          <span>Dữ liệu: {stats.totalQuestionsCount} câu hỏi chuẩn FER202</span>
+          <span>WDU Quiz Master &copy; {new Date().getFullYear()}</span>
+          <span>Dữ liệu: {stats.totalQuestionsCount} câu hỏi chuẩn WDU</span>
         </div>
       </footer>
 

@@ -3,18 +3,22 @@ import rawDbData from '../data/db.json';
 import { checkIsCorrect } from '../utils/quizUtils';
 
 const STORAGE_KEYS = {
-  ANSWERS: 'fer202_user_answers',
-  INCORRECT: 'fer202_incorrect_questions',
-  BOOKMARKS: 'fer202_bookmarked_questions',
-  EXAM_HISTORY: 'fer202_exam_history',
-  DARK_MODE: 'fer202_dark_mode',
-  ACTIVE_TAB: 'fer202_active_tab',
+  ANSWERS: 'wdu203c_user_answers',
+  INCORRECT: 'wdu203c_incorrect_questions',
+  BOOKMARKS: 'wdu203c_bookmarked_questions',
+  EXAM_HISTORY: 'wdu203c_exam_history',
+  DARK_MODE: 'wdu203c_dark_mode',
+  ACTIVE_TAB: 'wdu203c_active_tab',
 };
 
-// Helper to safely load JSON from localStorage
+// Helper to safely load JSON from localStorage (checking wdu first, falling back to legacy fer202)
 const loadStorage = (key, fallback) => {
   try {
-    const item = localStorage.getItem(key);
+    let item = localStorage.getItem(key);
+    if (!item && key.startsWith('wdu203c_')) {
+      const legacyKey = key.replace('wdu203c_', 'fer202_');
+      item = localStorage.getItem(legacyKey);
+    }
     return item ? JSON.parse(item) : fallback;
   } catch (e) {
     console.error(`Error loading localStorage key "${key}":`, e);
@@ -34,7 +38,7 @@ const saveStorage = (key, value) => {
 export function useQuizState() {
   const questions = useMemo(() => rawDbData.questions || [], []);
   const totalQuestionsCount = rawDbData.total_questions || questions.length;
-  const dbTitle = rawDbData.title || 'FER202 Review Questions & Answers';
+  const dbTitle = rawDbData.title || 'WDU203c Practice Questions and Answers';
 
   // Persistent States
   const [userAnswers, setUserAnswers] = useState(() => loadStorage(STORAGE_KEYS.ANSWERS, {}));

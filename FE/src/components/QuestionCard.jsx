@@ -58,12 +58,19 @@ export function QuestionCard({
   }, [question.id]);
 
   // Extract letter (A, B, C, D) and text content
-  const parseOption = (optionStr) => {
-    const match = optionStr.match(/^([A-D])\.\s*(.*)/s);
+  const parseOption = (opt) => {
+    if (typeof opt === 'object' && opt !== null) {
+      return {
+        letter: String(opt.label || 'A').toUpperCase(),
+        text: String(opt.text || '')
+      };
+    }
+    const str = String(opt || '');
+    const match = str.match(/^([A-Z])\.\s*(.*)/s);
     if (match) {
       return { letter: match[1].toUpperCase(), text: match[2] };
     }
-    return { letter: optionStr.charAt(0).toUpperCase(), text: optionStr };
+    return { letter: str.charAt(0).toUpperCase(), text: str };
   };
 
   // Handle clicking an option
