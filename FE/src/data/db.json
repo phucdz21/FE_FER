@@ -10,6 +10,10 @@
       "question": "What is a common source of error in UX surveys that can affect data quality?",
       "options": [
         {
+          "label": "A",
+          "text": "High response rates"
+        },
+        {
           "label": "B",
           "text": "Clear and concise questions"
         },
@@ -31,6 +35,10 @@
       "source_slide": 2,
       "question": "What is a primary reason for using surveys in UX research?",
       "options": [
+        {
+          "label": "A",
+          "text": "To replace qualitative methods"
+        },
         {
           "label": "B",
           "text": "To collect data from many users"
@@ -54,6 +62,10 @@
       "question": "What is a primary goal when analyzing data from user tests?",
       "options": [
         {
+          "label": "A",
+          "text": "To confirm that the design meets business objectives"
+        },
+        {
           "label": "B",
           "text": "To identify areas where users encounter difficulties"
         },
@@ -76,6 +88,10 @@
       "question": "What is a key criterion when evaluating low-fidelity prototypes?",
       "options": [
         {
+          "label": "A",
+          "text": "Ability to test core user tasks"
+        },
+        {
           "label": "B",
           "text": "Visual style and branding"
         },
@@ -89,7 +105,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Ability to test core user tasks",
       "multiple_answers": false
     },
     {
@@ -97,6 +113,14 @@
       "source_slide": 5,
       "question": "What is the purpose of sketching in UX design?",
       "options": [
+        {
+          "label": "A",
+          "text": "To finalize the design"
+        },
+        {
+          "label": "B",
+          "text": "To reflect, explore, and communicate design concepts"
+        },
         {
           "label": "C",
           "text": "To create perfect visuals"
@@ -107,7 +131,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "To reflect, explore, and communicate design concepts",
       "multiple_answers": false
     },
     {
@@ -115,6 +139,10 @@
       "source_slide": 6,
       "question": "What is a common challenge when conducting in-situ observations?",
       "options": [
+        {
+          "label": "A",
+          "text": "Participants behaving unnaturally due to being observed"
+        },
         {
           "label": "B",
           "text": "Difficulty in accessing the user's environment"
@@ -129,7 +157,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Participants behaving unnaturally due to being observed",
       "multiple_answers": false
     },
     {
@@ -138,20 +166,24 @@
       "question": "What is \"page depth\" in website analytics?",
       "options": [
         {
+          "label": "A",
+          "text": "The number of pages visited during a single user session"
+        },
+        {
           "label": "B",
           "text": "The time spent on each page by a user"
         },
         {
           "label": "C",
-          "text": "The number of visitors who retum to the site regularly"
+          "text": "The number of visitors who return to the site regularly"
         },
         {
           "label": "D",
-          "text": "The number of clicks on a page's primary button"
+          "text": "The number of clicks on a page’s primary button"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "The number of pages visited during a single user session",
       "multiple_answers": false
     },
     {
@@ -160,8 +192,12 @@
       "question": "What is the primary focus of Heuristic Evaluation?",
       "options": [
         {
+          "label": "A",
+          "text": "To analyze system speed and performance"
+        },
+        {
           "label": "B",
-          "text": "To review a Ul using Nielsen's 10 heuristics"
+          "text": "To review a UI using Nielsen's 10 heuristics"
         },
         {
           "label": "C",
@@ -173,7 +209,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "To review a Ul using Nielsen's 10 heuristics",
+      "answer_text": "To review a UI using Nielsen's 10 heuristics",
       "multiple_answers": false
     },
     {
@@ -181,6 +217,10 @@
       "source_slide": 9,
       "question": "What is the goal of labeling clusters in the affinity wall method?",
       "options": [
+        {
+          "label": "A",
+          "text": "To create catchy titles for each cluster"
+        },
         {
           "label": "B",
           "text": "To summarize the common theme or issue represented by the notes in the cluster"
@@ -204,6 +244,10 @@
       "question": "What is the primary purpose of conducting user interviews in UX research?",
       "options": [
         {
+          "label": "A",
+          "text": "To test the final product"
+        },
+        {
           "label": "B",
           "text": "To gather quantitative data"
         },
@@ -225,6 +269,10 @@
       "source_slide": 11,
       "question": "What does the Gulf of Execution refer to?",
       "options": [
+        {
+          "label": "A",
+          "text": "The gap when users interpret the results of their actions"
+        },
         {
           "label": "B",
           "text": "The difficulty in understanding the actions required to achieve a goal"
@@ -274,6 +322,10 @@
       "question": "What are the benefits of brainstorming in group ideation?",
       "options": [
         {
+          "label": "A",
+          "text": "Stimulates creativity and diverse perspectives"
+        },
+        {
           "label": "B",
           "text": "Ensures immediate solutions are found"
         },
@@ -287,7 +339,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Stimulates creativity and diverse perspectives",
       "multiple_answers": false
     },
     {
@@ -301,7 +353,11 @@
         },
         {
           "label": "B",
-          "text": "Surveys . Ignoring negative feedback"
+          "text": "Surveys"
+        },
+        {
+          "label": "C",
+          "text": "Ignoring negative feedback"
         },
         {
           "label": "D",
@@ -318,6 +374,10 @@
       "question": "What method would you develop to boost survey response rates for a mobile app?",
       "options": [
         {
+          "label": "A",
+          "text": "Use complex survey jargon"
+        },
+        {
           "label": "B",
           "text": "Offer incentives, clear opt-outs"
         },
@@ -327,7 +387,7 @@
         },
         {
           "label": "D",
-          "text": "Hide the survey's purpose"
+          "text": "Hide the survey’s purpose"
         }
       ],
       "answer": "B",
@@ -366,6 +426,10 @@
       "question": "Which of the following is not a question that can be answered by getting feedback on wireframes?",
       "options": [
         {
+          "label": "A",
+          "text": "Do screens contain the right functional components?"
+        },
+        {
           "label": "B",
           "text": "Does the screen layout make sense?"
         },
@@ -379,7 +443,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Do screens contain the right functional components?",
       "multiple_answers": false
     },
     {
@@ -388,12 +452,16 @@
       "question": "Which of the following best describes a \"persona\" in UX design?",
       "options": [
         {
+          "label": "A",
+          "text": "A fictional character representing a user type"
+        },
+        {
           "label": "B",
-          "text": "Areal user interviewed during research"
+          "text": "A real user interviewed during research"
         },
         {
           "label": "C",
-          "text": "Alls of product features"
+          "text": "A list of product features"
         },
         {
           "label": "D",
@@ -401,7 +469,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "A fictional character representing a user type",
       "multiple_answers": false
     },
     {
@@ -410,12 +478,24 @@
       "question": "Which of the following is an example of a tool commonly used for creating wireframes in UX design?",
       "options": [
         {
+          "label": "A",
+          "text": "Blender"
+        },
+        {
+          "label": "B",
+          "text": "Figma"
+        },
+        {
+          "label": "C",
+          "text": "Unity"
+        },
+        {
           "label": "D",
           "text": "Maya"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Figma",
       "multiple_answers": false
     },
     {
@@ -450,20 +530,24 @@
       "question": "Which of the following best describes the correct approach to note-taking?",
       "options": [
         {
+          "label": "A",
+          "text": "Writing down only the main ideas using brief phrases and key details."
+        },
+        {
           "label": "B",
           "text": "Recording only the information that won't be captured by audio or video."
         },
         {
           "label": "C",
-          "text": "Accepting that there isn't a single correct method for taking notes."
+          "text": "Accepting that there isn’t a single correct method for taking notes."
         },
         {
           "label": "D",
-          "text": "Noting only the follow-up questions you plan to ask later in the conversation,"
+          "text": "Noting only the follow-up questions you plan to ask later in the conversation."
         }
       ],
       "answer": "C",
-      "answer_text": "Accepting that there isn't a single correct method for taking notes.",
+      "answer_text": "Accepting that there isn’t a single correct method for taking notes.",
       "multiple_answers": false
     },
     {
@@ -471,6 +555,14 @@
       "source_slide": 22,
       "question": "Which of the following best describes a low-fidelity prototype?",
       "options": [
+        {
+          "label": "A",
+          "text": "A fully functional product"
+        },
+        {
+          "label": "B",
+          "text": "A detailed visual representation with interactive elements"
+        },
         {
           "label": "C",
           "text": "A simple, often hand-drawn, representation of a design concept"
@@ -481,7 +573,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "A fully functional product",
       "multiple_answers": false
     },
     {
@@ -490,8 +582,12 @@
       "question": "How does qualitative research differ from quantitative research?",
       "options": [
         {
+          "label": "A",
+          "text": "Qualitative research focuses on understanding in-depth user behavior and experiences, \\ research focuses on numerical data"
+        },
+        {
           "label": "B",
-          "text": "Qualitative research provides statistical data, while quantitative research focuses on user behavior"
+          "text": "Qualitative research provides statistical data, while quantitative research focuses on user"
         },
         {
           "label": "C",
@@ -499,11 +595,11 @@
         },
         {
           "label": "D",
-          "text": "Qualitative research involves automated data analysis,"
+          "text": "Qualitative research involves automated data analysis"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Qualitative research focuses on understanding in-depth user behavior and experiences, \\ research focuses on numerical data",
       "multiple_answers": false
     },
     {
@@ -512,8 +608,16 @@
       "question": "A team proposes bypassing heuristic evaluation and moving directly to user testing for a website design How would you assess this decision based on UX evaluation principles?",
       "options": [
         {
+          "label": "A",
+          "text": "Support it, as user testing is always superior"
+        },
+        {
           "label": "B",
-          "text": "Oppose it, as heuristic evaluation is faster and finds different issues CC. Support it, as heuristic evaluation is unnecessary"
+          "text": "Oppose it, as heuristic evaluation is faster and finds different issues"
+        },
+        {
+          "label": "C",
+          "text": "Support it, as heuristic evaluation is unnecessary"
         },
         {
           "label": "D",
@@ -521,7 +625,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "Oppose it, as heuristic evaluation is faster and finds different issues CC. Support it, as heuristic evaluation is unnecessary",
+      "answer_text": "Oppose it, as heuristic evaluation is faster and finds different issues",
       "multiple_answers": false
     },
     {
@@ -530,8 +634,16 @@
       "question": "test task uses the term \"Shopping Cart\" which appears in the UI. What should you do instead?",
       "options": [
         {
+          "label": "A",
+          "text": "Leave it as is"
+        },
+        {
           "label": "B",
-          "text": "Add more technical jargon CC. Reword it to avoid interface-specific terms"
+          "text": "Add more technical jargon"
+        },
+        {
+          "label": "C",
+          "text": "Reword it to avoid interface-specific terms"
         },
         {
           "label": "D",
@@ -539,7 +651,7 @@
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Reword it to avoid interface-specific terms",
       "multiple_answers": false
     },
     {
@@ -547,6 +659,10 @@
       "source_slide": 27,
       "question": "Besides usability testing, what is another research method that can be conducted remotely?",
       "options": [
+        {
+          "label": "A",
+          "text": "Product assembly"
+        },
         {
           "label": "B",
           "text": "Diary studies"
@@ -570,6 +686,10 @@
       "question": "In-situ observation is particularly useful for 'A. Understanding user behavior in their natural environment",
       "options": [
         {
+          "label": "A",
+          "text": "Understanding user behavior in their natural environment"
+        },
+        {
           "label": "B",
           "text": "Testing the technical performance of a product"
         },
@@ -583,7 +703,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Understanding user behavior in their natural environment",
       "multiple_answers": false
     },
     {
@@ -592,8 +712,16 @@
       "question": "Select all the benefits of conducting usability testing early in the UX design process. (More than one answer may be correct). A Identify potential design flaws",
       "options": [
         {
+          "label": "A",
+          "text": "Identify potential design flaws"
+        },
+        {
           "label": "B",
-          "text": "Guarantees project success . Improves user satisfaction"
+          "text": "Guarantees project success"
+        },
+        {
+          "label": "C",
+          "text": "Improves user satisfaction"
         },
         {
           "label": "D",
@@ -601,7 +729,7 @@
         }
       ],
       "answer": "AC",
-      "answer_text": null,
+      "answer_text": "Identify potential design flaws; Improves user satisfaction",
       "multiple_answers": true
     },
     {
@@ -610,12 +738,16 @@
       "question": "A single designer can usually conduct a test of a lo-fi prototype by him/herself. |A. True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False i@t ké don lé thutmg o6 thé tu minh tién hanh kiém thir mot nguyen mau mie do tha (lo-fi prototype)."
+          "text": "False"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "True",
       "multiple_answers": false
     },
     {
@@ -629,7 +761,7 @@
         },
         {
           "label": "B",
-          "text": "False thiéu gia phap thay thé gitip nang cao chat luong ct thiét ké cudi cing,"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -647,7 +779,7 @@
         },
         {
           "label": "B",
-          "text": "False i tiét cla thong tin can thiét la met yéu t6 quan trong cian xem xét khi thiét ké cdc dau vio ctia he thong\""
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -665,7 +797,7 @@
         },
         {
           "label": "B",
-          "text": "False trong la khong chi trich cdc y tung trong qué trinh dong nao (brainstorming)"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -678,12 +810,16 @@
       "question": "Its possible to create a useful, functional interactive prototype with very simple tools, such as paper, post-it notes, and scotch tape. A True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False 166 thé tao ra mot nguyén mau trong tac hifu ich va cé chife nang bang nhimg cong cu rat don gidn, nhu gid, gidy ghi cha (post-it) va bang dinh\""
+          "text": "False"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "True",
       "multiple_answers": false
     },
     {
@@ -697,7 +833,7 @@
         },
         {
           "label": "B",
-          "text": "False ddoan 'tgo ¥ tuting| (generation phase), muc tiéu ciia ban nén la phac thao nhieu ¥ tung thiét ké khéc nhau thay vi hoan thien mot y tuéng duy nhat!"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -715,7 +851,7 @@
         },
         {
           "label": "B",
-          "text": "False nhiing muc tiu eda ban trong viée thiét ké cdc sn phdm 06 tra nghiém nguot ding t8t la that bal sém va thureng xuyén nhat c6 tha."
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -733,7 +869,7 @@
         },
         {
           "label": "B",
-          "text": "False 1g pull' mang lai cho nguét ding mite dé kiém sost cao doi vai viée truy cap thang tin"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -751,7 +887,7 @@
         },
         {
           "label": "B",
-          "text": "False jham vi van dé la mot phian co ban ca quy trinh thiét ké:"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -769,7 +905,7 @@
         },
         {
           "label": "B",
-          "text": "False duoc sit dung cé dé tao ra va dé truyén dat y tuéng:"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -787,7 +923,7 @@
         },
         {
           "label": "B",
-          "text": "False an giip nha thiét ké phén dnh vé nhu cau ngubi dung, c'ch cong nghé c6 thé dap ting nhi 19 nhu cu dé va ca van de tiém an od the phat sinh khi strdung cong nghé duoc hinh"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -801,11 +937,15 @@
       "options": [
         {
           "label": "A",
-          "text": "True ui theo thuyét kj thuat quyét dinh cho rang doi khi cdc dac tinh ctia cong nghé gan nhw tat yéu dan dén nhimg loai hau qué nhat dinh.\""
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
         }
       ],
       "answer": "A",
-      "answer_text": "True ui theo thuyét kj thuat quyét dinh cho rang doi khi cdc dac tinh ctia cong nghé gan nhw tat yéu dan dén nhimg loai hau qué nhat dinh.\"",
+      "answer_text": "True",
       "multiple_answers": false
     },
     {
@@ -819,7 +959,7 @@
         },
         {
           "label": "B",
-          "text": "False Sai: Céc sé liéu co ban nhu ty 1é hoan thanh tac vy, théf gian thuc hién téc vy vayhodc ty 1é mac léi nén duct dua vio béo cao kiém this nguti ding,\""
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -830,8 +970,17 @@
       "id": 42,
       "source_slide": 47,
       "question": "True or false: In this course, you will 'get your hands dirty\" and gain hands-on experience with UX Research and Design methods. Chon ainh nghia dung 1 True 2 False hi nay, ban si 1 huge hanh' va tich ly kin nghiém thie vGi cdc phuemg phép Nohién ciru Th on",
-      "options": [],
-      "answer": "TRUE",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "A",
       "answer_text": "True",
       "multiple_answers": false
     },
@@ -846,7 +995,7 @@
         },
         {
           "label": "B",
-          "text": "False 06 thé kiém tra céc khai niem thiét ke, dong thoi giip nha thiet ké Iva chon giita nhiéu cdch thiét ké mot tinh nang:"
+          "text": "False"
         }
       ],
       "answer": "A",
@@ -859,12 +1008,16 @@
       "question": "When sketching to come up with different design solutions, you should stop the first time you run out of ideas. A True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False hao dé dira ra cac gidi php thiét ké khac nhau, ban nén dimg lai ngay lan dau tién ban cém thay can kiet y tung."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False hao dé dira ra cac gidi php thiét ké khac nhau, ban nén dimg lai ngay lan dau tién ban cém thay can kiet y tung.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -878,11 +1031,11 @@
         },
         {
           "label": "B",
-          "text": "False nihiéu loai dau vao khéc nhau, céc nha thiét ké UX chi can tap trung vio vie thiét ké thang tin ma nguréi ding sé nhap mot edch rd rang vio he thdng,"
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False nihiéu loai dau vao khéc nhau, céc nha thiét ké UX chi can tap trung vio vie thiét ké thang tin ma nguréi ding sé nhap mot edch rd rang vio he thdng,",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -896,11 +1049,11 @@
         },
         {
           "label": "B",
-          "text": "False iét ké nén at muc tiéu tao ra khosing nira té gidi phap khi ho len y tutng."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False iét ké nén at muc tiéu tao ra khosing nira té gidi phap khi ho len y tutng.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -914,11 +1067,11 @@
         },
         {
           "label": "B",
-          "text": "False iét ke thurémg gidi quyét chinh xéc van @ thiet ké ban dau dugc dua ra cho ho."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False iét ke thurémg gidi quyét chinh xéc van @ thiet ké ban dau dugc dua ra cho ho.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -927,12 +1080,16 @@
       "question": "Designers conduct formative research using a single, unified set of methods. |A. True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False ké tien han nghién cx hinh thanh bang cach str dung mot bo phuong phép duy nha, ing nat."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False ké tien han nghién cx hinh thanh bang cach str dung mot bo phuong phép duy nha, ing nat.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -946,11 +1103,11 @@
         },
         {
           "label": "B",
-          "text": "False tuyét vit la can thiét dé tao ra cic storyboard higu qua."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False tuyét vit la can thiét dé tao ra cic storyboard higu qua.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -964,11 +1121,11 @@
         },
         {
           "label": "B",
-          "text": "False 9 php nghién citu chinh thirc ludn duroc wu tien hon céc phuong phép khong chinh thiic dé thyc hign nghién city hinh thanh,"
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False 9 php nghién citu chinh thirc ludn duroc wu tien hon céc phuong phép khong chinh thiic dé thyc hign nghién city hinh thanh,",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -977,12 +1134,16 @@
       "question": "Is the following statement true or false?",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False on luon dura mot bng cau hoi trutic khi kiém tra vao bat ky bai kiém tra ngudi ding nao ma ban thu hién."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False on luon dura mot bng cau hoi trutic khi kiém tra vao bat ky bai kiém tra ngudi ding nao ma ban thu hién.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -996,11 +1157,11 @@
         },
         {
           "label": "B",
-          "text": "False mé hin tinh théin vé mat hé théng giip ho sir dung he théng dé mat cach hiéu qué, ngubi ding clin phai hiéu céc nén tang kj thuat cia hé thong dé."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False mé hin tinh théin vé mat hé théng giip ho sir dung he théng dé mat cach hiéu qué, ngubi ding clin phai hiéu céc nén tang kj thuat cia hé thong dé.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1014,11 +1175,11 @@
         },
         {
           "label": "B",
-          "text": "False Thiat ke chi ign quan dén ca khi inh thm my (hoac lién quan sé dep) cla san pham."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False Thiat ke chi ign quan dén ca khi inh thm my (hoac lién quan sé dep) cla san pham.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1032,11 +1193,11 @@
         },
         {
           "label": "B",
-          "text": "False uréng chil yéu dién ra 6 giai doan dau cia qué trinh thiét ké khi nha thiét ké fan du tién dua ra céc giai phap kha thi cho van de thiet ké."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False uréng chil yéu dién ra 6 giai doan dau cia qué trinh thiét ké khi nha thiét ké fan du tién dua ra céc giai phap kha thi cho van de thiet ké.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1050,11 +1211,11 @@
         },
         {
           "label": "B",
-          "text": "False trong la phai gidi vé dé sts dung phic thao trong Thiet ké UX."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False trong la phai gidi vé dé sts dung phic thao trong Thiet ké UX.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1063,12 +1224,16 @@
       "question": "It doesn't matter whether you initially create a low- or high-fidelity prototype. You can get the same kind of feedback on either. A True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False n trong vigc ban dau ban tao mot bén mau c6 do chan thy thap hay cao. Ban 6 thé nhan duoc cling mot loai phan hai trén ci hai"
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False n trong vigc ban dau ban tao mot bén mau c6 do chan thy thap hay cao. Ban 6 thé nhan duoc cling mot loai phan hai trén ci hai",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1082,11 +1247,11 @@
         },
         {
           "label": "B",
-          "text": "False rnhimg nhan vat hoan toan hur cau."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False rnhimg nhan vat hoan toan hur cau.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1100,11 +1265,11 @@
         },
         {
           "label": "B",
-          "text": "False am chinh cia thiét ké la tao ra cc vat phém va hé thong c6 tinh tha mi cao."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False am chinh cia thiét ké la tao ra cc vat phém va hé thong c6 tinh tha mi cao.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1113,12 +1278,16 @@
       "question": "True or False: It is not the role of the UX researcher to assign severity to problems found in user testing-this |should be left up to the product owner. A True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False sai: Gan mii d6 nghiém trong cho ac van dé duoc tim thay trong thir nghiem nguét ding khong phai lé vai tro cua nhis nghién cfu UX—diéu nay nén dé cho chi sé hitu sin"
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False sai: Gan mii d6 nghiém trong cho ac van dé duoc tim thay trong thir nghiem nguét ding khong phai lé vai tro cua nhis nghién cfu UX—diéu nay nén dé cho chi sé hitu sin",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1127,20 +1296,33 @@
       "question": "True or False: If you take good notes, there is no reason to capture a screen recording of user test sessions. Hor later review. A True",
       "options": [
         {
+          "label": "A",
+          "text": "True"
+        },
+        {
           "label": "B",
-          "text": "False si: Néu ban ahi chép odin than, khong oI do gi dé quay Iai mn hinh cae bud kiém tra ngudi ding dé xem lai sau nay."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False si: Néu ban ahi chép odin than, khong oI do gi dé quay Iai mn hinh cae bud kiém tra ngudi ding dé xem lai sau nay.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
       "id": 61,
       "source_slide": 71,
       "question": "iy thi atin na True or false: \"User Experience\" only describes the experience that people have while actually using a product, and not other related experiences like acquiring the product or fixing it when it breaks. 'Chon dinh nghia dng 1 2 True False mnguos din 'mé té tri nghiem ma moi nguéi o6 duoc khi thyc su sis dung sén phém, ch khang phai ca tri nghiem lien quan khdc nhu mua san phém hoge stra sin",
-      "options": [],
-      "answer": "FALSE",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "B",
       "answer_text": "False",
       "multiple_answers": false
     },
@@ -1155,19 +1337,28 @@
         },
         {
           "label": "B",
-          "text": "False Gi vé dé tao ra ban pha thao hifu ich cho thiet ke."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False Gi vé dé tao ra ban pha thao hifu ich cho thiet ke.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
       "id": 63,
       "source_slide": 73,
       "question": "True or false: You need to have a degree in psychology in order to understand the principles behind good UX. CChon din nghia dng 1 True 2 False Ban khdng biét?",
-      "options": [],
-      "answer": "FALSE",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "B",
       "answer_text": "False",
       "multiple_answers": false
     },
@@ -1182,11 +1373,11 @@
         },
         {
           "label": "B",
-          "text": "False du Wizard of Oz hifu ich nhat cho fa0 ban mau céc ting dung dua trén man hinh."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False du Wizard of Oz hifu ich nhat cho fa0 ban mau céc ting dung dua trén man hinh.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1200,11 +1391,11 @@
         },
         {
           "label": "B",
-          "text": "False ac nha thiét ké phai dat gia tri mac dinh cho nhiéu yéu t0 thiét ké, nhimg gié tri mac dinh nay hiém khi quan trong vi ngurdi ding c6 thé th <d6i ching bait ci hic nao."
+          "text": "False"
         }
       ],
       "answer": "B",
-      "answer_text": "False ac nha thiét ké phai dat gia tri mac dinh cho nhiéu yéu t0 thiét ké, nhimg gié tri mac dinh nay hiém khi quan trong vi ngurdi ding c6 thé th <d6i ching bait ci hic nao.",
+      "answer_text": "False",
       "multiple_answers": false
     },
     {
@@ -1240,7 +1431,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Anchoring IC. Recency"
+          "text": "Anchoring"
+        },
+        {
+          "label": "B",
+          "text": "Primacy"
+        },
+        {
+          "label": "C",
+          "text": "Recency"
         },
         {
           "label": "D",
@@ -1340,7 +1539,11 @@
         },
         {
           "label": "B",
-          "text": "Private IC. Dedicated only for conducting user tests"
+          "text": "Private"
+        },
+        {
+          "label": "C",
+          "text": "Dedicated only for conducting user tests"
         },
         {
           "label": "D",
@@ -1348,16 +1551,37 @@
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Dedicated only for conducting user tests",
       "multiple_answers": false
     },
     {
       "id": 72,
       "source_slide": 83,
       "question": "Which of the following is NOT an element of a typical scenario?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Agent"
+        },
+        {
+          "label": "B",
+          "text": "Actions"
+        },
+        {
+          "label": "C",
+          "text": "Location"
+        },
+        {
+          "label": "D",
+          "text": "Goals"
+        },
+        {
+          "label": "E",
+          "text": "Events"
+        }
+      ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Location",
       "multiple_answers": false
     },
     {
@@ -1367,11 +1591,27 @@
       "options": [
         {
           "label": "A",
-          "text": " Surveys Clickstream analytics Concept Testing Interviews Remote testing"
+          "text": "Surveys"
+        },
+        {
+          "label": "B",
+          "text": "Clickstream analytics"
+        },
+        {
+          "label": "C",
+          "text": "Concept Testing"
+        },
+        {
+          "label": "D",
+          "text": "Interviews"
+        },
+        {
+          "label": "E",
+          "text": "Remote testing"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Concept Testing",
       "multiple_answers": false
     },
     {
@@ -1380,8 +1620,16 @@
       "question": "Which of the following does NOT impact the likelihood that something in long-term memory will be recalled?",
       "options": [
         {
+          "label": "A",
+          "text": "Strength of association"
+        },
+        {
           "label": "B",
-          "text": "Frequency of use IC. Recency of use"
+          "text": "Frequency of use"
+        },
+        {
+          "label": "C",
+          "text": "Recency of use"
         },
         {
           "label": "D",
@@ -1398,20 +1646,24 @@
       "question": "Which of the following is NOT another name for the kind of qualitative research methodology you learned in this specialization?",
       "options": [
         {
+          "label": "A",
+          "text": "Ethnographic research"
+        },
+        {
           "label": "B",
-          "text": "Contextual inquiry."
+          "text": "Contextual inquiry"
         },
         {
           "label": "C",
-          "text": "User needs assessment"
+          "text": "User needs assessment."
         },
         {
           "label": "D",
-          "text": "Socio-technical extraction"
+          "text": "Socio-technical extraction."
         }
       ],
       "answer": "D",
-      "answer_text": "Socio-technical extraction",
+      "answer_text": "Socio-technical extraction.",
       "multiple_answers": false
     },
     {
@@ -1421,11 +1673,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Number of questions you want to ask Characteristics of the people you're interested in Survey mode Relationship to the product"
+          "text": "Number of questions you want to ask"
+        },
+        {
+          "label": "B",
+          "text": "Characteristics of the people you're interested in"
+        },
+        {
+          "label": "C",
+          "text": "Survey mode"
+        },
+        {
+          "label": "D",
+          "text": "Relationship to the product"
         }
       ],
       "answer": "A",
-      "answer_text": " Number of questions you want to ask Characteristics of the people you're interested in Survey mode Relationship to the product",
+      "answer_text": "Number of questions you want to ask",
       "multiple_answers": false
     },
     {
@@ -1435,19 +1699,23 @@
       "options": [
         {
           "label": "A",
-          "text": "Avoiding jargon"
+          "text": "Avoiding jargon."
         },
         {
           "label": "B",
-          "text": "Keeping language as simple as possible 'C. Ask one question at a time."
+          "text": "Keeping language as simple as possible."
+        },
+        {
+          "label": "C",
+          "text": "Ask one question at a time."
         },
         {
           "label": "D",
-          "text": "Making the question sound scientific"
+          "text": "Making the question sound scientific."
         }
       ],
       "answer": "D",
-      "answer_text": "Making the question sound scientific",
+      "answer_text": "Making the question sound scientific.",
       "multiple_answers": false
     },
     {
@@ -1456,12 +1724,16 @@
       "question": "Which of the following should you NOT do when trying to establish rapport with an interview participant?",
       "options": [
         {
+          "label": "A",
+          "text": "Talk about what other participants have been saying."
+        },
+        {
           "label": "B",
-          "text": "Make small talk at first,"
+          "text": "Make small talk at first."
         },
         {
           "label": "C",
-          "text": "Listen and observe how they respond"
+          "text": "Listen and observe how they respond."
         },
         {
           "label": "D",
@@ -1469,7 +1741,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Talk about what other participants have been saying.",
       "multiple_answers": false
     },
     {
@@ -1504,6 +1776,10 @@
       "question": "Which of the following would NOT be an example of a sampling frame?",
       "options": [
         {
+          "label": "A",
+          "text": "Asocial media site, like Twitter"
+        },
+        {
           "label": "B",
           "text": "An organization's email directory"
         },
@@ -1517,7 +1793,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Asocial media site, like Twitter",
       "multiple_answers": false
     },
     {
@@ -1527,11 +1803,23 @@
       "options": [
         {
           "label": "A",
-          "text": "Application data like contacts, calendar events, or user's health information (e.g., steps) |B. Weather data IC. Picture taken by the user using the phone camera ID. User's current location"
+          "text": "Application data like contacts, calendar events, or user's health information |"
+        },
+        {
+          "label": "B",
+          "text": "Weather data"
+        },
+        {
+          "label": "C",
+          "text": "Picture taken by the user using the phone camera"
+        },
+        {
+          "label": "D",
+          "text": "User's current location"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Picture taken by the user using the phone camera",
       "multiple_answers": false
     },
     {
@@ -1590,9 +1878,26 @@
       "id": 84,
       "source_slide": 95,
       "question": "Which of the following is NOT something to think about if you are going to use Amazon's Mechanical Turk to recruit respondents?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "How to pay a fair wage to Turkers"
+        },
+        {
+          "label": "B",
+          "text": "The shakiness of the demographic data about Turkers"
+        },
+        {
+          "label": "C",
+          "text": "How to check for the validity of responses"
+        },
+        {
+          "label": "D",
+          "text": "Response rates for Turkers"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Response rates for Turkers",
       "multiple_answers": false
     },
     {
@@ -1654,20 +1959,53 @@
       "options": [
         {
           "label": "A",
-          "text": " To frame or reframe a design problem To generate a large number of alternative solutions To evaluate tradeoffs of different alternatives To create and test with potential users a functioning prototype of a design solution To write a business plan for selling the technology designers created"
+          "text": "To frame or reframe a design problem"
+        },
+        {
+          "label": "B",
+          "text": "To generate a large number of alternative solutions"
+        },
+        {
+          "label": "C",
+          "text": "To evaluate tradeoffs of different alternatives"
+        },
+        {
+          "label": "D",
+          "text": "To create and test with potential users a functioning prototype of a design solution"
+        },
+        {
+          "label": "E",
+          "text": "To write a business plan for selling the technology designers created"
         }
       ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "To write a business plan for selling the technology designers created",
       "multiple_answers": false
     },
     {
       "id": 88,
       "source_slide": 100,
       "question": "Which of the following is NOT a way to increase the perceived benefit of participating in a survey?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Specify how the survey results will be used"
+        },
+        {
+          "label": "B",
+          "text": "Identify the trustworthiness of the sponsoring organization"
+        },
+        {
+          "label": "C",
+          "text": "Make the survey as short as possible"
+        },
+        {
+          "label": "D",
+          "text": "Stress that opportunities to respond are limited"
+        }
+      ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Make the survey as short as possible",
       "multiple_answers": false
     },
     {
@@ -1726,9 +2064,26 @@
       "id": 91,
       "source_slide": 104,
       "question": "Which of the following is NOT a reason you would want to have a high response rate?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "If you want to be more confident that you've detected a difference/change"
+        },
+        {
+          "label": "B",
+          "text": "If your population is very heterogeneous."
+        },
+        {
+          "label": "C",
+          "text": "If you want to be able to conduct more complicated statistical analyses"
+        },
+        {
+          "label": "D",
+          "text": "If you want to detect smaller, or more subtle differences/changes"
+        }
+      ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "If you want to be able to conduct more complicated statistical analyses",
       "multiple_answers": false
     },
     {
@@ -1738,11 +2093,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Writing a question that every respondent will interpret in the way the researcher intends. Writing @ question that every respondent will answer in the same way Writing a question that every respondent will respond to accurately Writing a question that every respondent is willing to answer"
+          "text": "Writing a question that every respondent will interpret in the way the researcher intends."
+        },
+        {
+          "label": "B",
+          "text": "Writing a question that every respondent will answer in the same way."
+        },
+        {
+          "label": "C",
+          "text": "Writing a question that every respondent will respond to accurately."
+        },
+        {
+          "label": "D",
+          "text": "Writing a question that every respondent is willing to answer."
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Writing a question that every respondent will answer in the same way.",
       "multiple_answers": false
     },
     {
@@ -1827,9 +2194,30 @@
       "id": 96,
       "source_slide": 110,
       "question": "Which of the following is not a characteristic of sketches done for the purposes of ideation?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Quick"
+        },
+        {
+          "label": "B",
+          "text": "Disposable"
+        },
+        {
+          "label": "C",
+          "text": "Evocative"
+        },
+        {
+          "label": "D",
+          "text": "Refined"
+        },
+        {
+          "label": "E",
+          "text": "Ambiguous"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Refined",
       "multiple_answers": false
     },
     {
@@ -1864,6 +2252,10 @@
       "question": "Which of the following data types is typically not collected in a user test?",
       "options": [
         {
+          "label": "A",
+          "text": "Task completion"
+        },
+        {
           "label": "B",
           "text": "Task timing"
         },
@@ -1884,9 +2276,26 @@
       "id": 99,
       "source_slide": 113,
       "question": "Which of the following is not an example of a subjective measure that might be collected during @ user test?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Perceived usability"
+        },
+        {
+          "label": "B",
+          "text": "Desirability"
+        },
+        {
+          "label": "C",
+          "text": "Perceived usefulness"
+        },
+        {
+          "label": "D",
+          "text": "Task completion speed"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Task completion speed",
       "multiple_answers": false
     },
     {
@@ -1895,20 +2304,28 @@
       "question": "Which new technological trend is not requiring designers to change how they prototype and test their systems?",
       "options": [
         {
+          "label": "A",
+          "text": "Proliferation of screens (smart watches, embedded displays, etc.) for which designers need | experiences"
+        },
+        {
           "label": "B",
-          "text": "instrumented environments"
+          "text": "Instrumented environments"
         },
         {
           "label": "C",
-          "text": "Artificial inteligence-based systems"
+          "text": "Artificial Intelligence-based systems"
         },
         {
           "label": "D",
-          "text": "Virtual and augmented reality IE. None of the others"
+          "text": "Virtual and augmented reality"
+        },
+        {
+          "label": "E",
+          "text": "None of the others"
         }
       ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "None of the others",
       "multiple_answers": false
     },
     {
@@ -1941,18 +2358,52 @@
       "id": 102,
       "source_slide": 116,
       "question": "Which of the following is not a question that can be answered by getting feedback on wireframes?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Do screens contain the right functional components?"
+        },
+        {
+          "label": "B",
+          "text": "Does the screen layout make sense?"
+        },
+        {
+          "label": "C",
+          "text": "Is the displayed content ordered correctly?"
+        },
+        {
+          "label": "D",
+          "text": "Do the screens provide adequate navigation?"
+        }
+      ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Is the displayed content ordered correctly?",
       "multiple_answers": false
     },
     {
       "id": 103,
       "source_slide": 117,
       "question": "Which of the following is not a characteristic of hifi prototypes?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "They are more resource-intensive to develop"
+        },
+        {
+          "label": "B",
+          "text": "They can be run by the tester without help"
+        },
+        {
+          "label": "C",
+          "text": "They are of limited usefulness for testing usability"
+        },
+        {
+          "label": "D",
+          "text": "They can be used as a part of the spec given to developers"
+        }
+      ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "They are of limited usefulness for testing usability",
       "multiple_answers": false
     },
     {
@@ -1961,16 +2412,24 @@
       "question": "Which of the following would you typically not include in a debrief interview?",
       "options": [
         {
+          "label": "A",
+          "text": "Review of problems encountered during tasks"
+        },
+        {
           "label": "B",
-          "text": "General questions about perceived usefulness and comparisons to similar systems, IC. Demographic questions like age, gender, and education level"
+          "text": "General questions about perceived usefulness and comparisons to similar systems"
+        },
+        {
+          "label": "C",
+          "text": "Demographic questions like age, gender, and education level"
         },
         {
           "label": "D",
-          "text": "A \"wrap-up\" question in which you ask participants for any additional thoughts that weren't covered already"
+          "text": "A “wrap-up” question in which you ask participants for any additional thoughts that weren't «"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Demographic questions like age, gender, and education level",
       "multiple_answers": false
     },
     {
@@ -2144,7 +2603,11 @@
         },
         {
           "label": "B",
-          "text": "Beauty ©. Functionality"
+          "text": "Beauty"
+        },
+        {
+          "label": "C",
+          "text": "Functionality"
         },
         {
           "label": "D",
@@ -2166,7 +2629,11 @@
         },
         {
           "label": "B",
-          "text": "Defaults are easily changed IC. Defaults decrease onboarding time"
+          "text": "Defaults are easily changed"
+        },
+        {
+          "label": "C",
+          "text": "Defaults decrease onboarding time"
         },
         {
           "label": "D",
@@ -2174,7 +2641,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "Defaults are easily changed IC. Defaults decrease onboarding time",
+      "answer_text": "Defaults are easily changed",
       "multiple_answers": false
     },
     {
@@ -2188,7 +2655,11 @@
         },
         {
           "label": "B",
-          "text": "The Think-Aloud Protocol IC. What You See Is What You Get"
+          "text": "The Think-Aloud Protocol"
+        },
+        {
+          "label": "C",
+          "text": "What You See Is What You Get"
         },
         {
           "label": "D",
@@ -2196,7 +2667,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "The Think-Aloud Protocol IC. What You See Is What You Get",
+      "answer_text": "The Think-Aloud Protocol",
       "multiple_answers": false
     },
     {
@@ -2206,11 +2677,23 @@
       "options": [
         {
           "label": "A",
-          "text": " It can be hard to operationalize abstract concepts in a way that every respondent understands. The best way to start a survey is by writing some questions, and then iterating on them. People are very consistent in how they answer questions over time, Pre-testing a survey is rarely worth the time it takes."
+          "text": "It can be hard to operationalize abstract concepts in a way that every respondent understands."
+        },
+        {
+          "label": "B",
+          "text": "The best way to start a survey is by writing some questions, and then iterating on them."
+        },
+        {
+          "label": "C",
+          "text": "People are very consistent in how they answer questions over time."
+        },
+        {
+          "label": "D",
+          "text": "Pre-testing a survey is rarely worth the time it takes"
         }
       ],
       "answer": "A",
-      "answer_text": " It can be hard to operationalize abstract concepts in a way that every respondent understands. The best way to start a survey is by writing some questions, and then iterating on them. People are very consistent in how they answer questions over time, Pre-testing a survey is rarely worth the time it takes.",
+      "answer_text": "It can be hard to operationalize abstract concepts in a way that every respondent understands.",
       "multiple_answers": false
     },
     {
@@ -2246,15 +2729,23 @@
       "options": [
         {
           "label": "A",
-          "text": " People remember their past behavior well enough to give accurate survey responses,"
+          "text": "People remember their past behavior well enough to give accurate survey responses."
         },
         {
           "label": "B",
-          "text": " Memory can be guided back to accuracy through careful prompts Memory fades over time, but people are good at remembering routine actions. Memory fades over time, and often doesn't capture routine actions"
+          "text": "Memory can be guided back to accuracy through careful prompts"
+        },
+        {
+          "label": "C",
+          "text": "Memory fades over time, but people are good at remembering routine actions."
+        },
+        {
+          "label": "D",
+          "text": "Memory fades over time, and often doesn't capture routine actions."
         }
       ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Memory fades over time, and often doesn't capture routine actions.",
       "multiple_answers": false
     },
     {
@@ -2264,15 +2755,23 @@
       "options": [
         {
           "label": "A",
-          "text": "It's better to get a low response rate from 2 small sample than it is to get 2 high response rate from a big sam IB. Response rates are only important for national, probabilty studies IC. Response rates are not connected to survey quality"
+          "text": "It's better to get a low response rate from a small sample than it is to get a high response rate from a big sample."
+        },
+        {
+          "label": "B",
+          "text": "Response rates are only important for national, probability studies."
+        },
+        {
+          "label": "C",
+          "text": "Response rates are not connected to survey quality."
         },
         {
           "label": "D",
-          "text": "It's better to get a high response rate from a small sample than @ low response rate from a big sample."
+          "text": "It's better to get a high response rate from a small sample than a low response rate from a big sample."
         }
       ],
       "answer": "D",
-      "answer_text": "It's better to get a high response rate from a small sample than @ low response rate from a big sample.",
+      "answer_text": "It's better to get a high response rate from a small sample than a low response rate from a big sample.",
       "multiple_answers": false
     },
     {
@@ -2282,11 +2781,23 @@
       "options": [
         {
           "label": "A",
-          "text": " The demographic makeup of your population The type of analysis you plan on doing The type of sampling you're using The mode your survey will be delivered in"
+          "text": "The demographic makeup of your population"
+        },
+        {
+          "label": "B",
+          "text": "The type of analysis you plan on doing"
+        },
+        {
+          "label": "C",
+          "text": "The type of sampling you're using"
+        },
+        {
+          "label": "D",
+          "text": "The mode your survey will be delivered in"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "The type of analysis you plan on doing",
       "multiple_answers": false
     },
     {
@@ -2296,15 +2807,23 @@
       "options": [
         {
           "label": "A",
-          "text": " They are the easiest type of question to analyze."
+          "text": "They are the easiest type of question to analyze"
         },
         {
           "label": "B",
-          "text": " They allow respondents to answer without limiting the range of responses. They are more frequently skipped than other types of questions They are often used when we haven't pre-defined response categories."
+          "text": "They allow respondents to answer without limiting the range of responses."
+        },
+        {
+          "label": "C",
+          "text": "They are more frequently skipped than other types of questions"
+        },
+        {
+          "label": "D",
+          "text": "They are often used when we haven't pre-defined response categories"
         }
       ],
       "answer": "A",
-      "answer_text": " They are the easiest type of question to analyze.",
+      "answer_text": "They are the easiest type of question to analyze",
       "multiple_answers": false
     },
     {
@@ -2313,8 +2832,16 @@
       "question": "All of the following are important to do when observing a user testing session, EXCEPT for 'A. Capture recordings of the user's screen",
       "options": [
         {
+          "label": "A",
+          "text": "Capture recordings of the user's screen"
+        },
+        {
           "label": "B",
-          "text": "Capture audio recordings of the user thinking aloud IC. Notify participants as soon as they have met each task's success criteria"
+          "text": "Capture audio recordings of the user thinking aloud"
+        },
+        {
+          "label": "C",
+          "text": "Notify participants as soon as they have met each task’s success criteria"
         },
         {
           "label": "D",
@@ -2322,7 +2849,7 @@
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "Notify participants as soon as they have met each task’s success criteria",
       "multiple_answers": false
     },
     {
@@ -2332,19 +2859,23 @@
       "options": [
         {
           "label": "A",
-          "text": "Could you tell me about @ recent time when you used the \"undo\" feature?"
+          "text": "Could you tell me about a recent time when you used the “undo” feature?"
         },
         {
           "label": "B",
-          "text": "Tell me more ~- what was the context when you used the \"undo\" feature? |C. What functionality would you have liked to have to complete the task?"
+          "text": "Tell me more -- what was the context when you used the “undo” feature?"
+        },
+        {
+          "label": "C",
+          "text": "What functionality would you have liked to have to complete the task?"
         },
         {
           "label": "D",
-          "text": "Was it because you didn't know about the \"undo\" feature that you were unable to complete the task?"
+          "text": "Was it because you didn't know about the “undo” feature that you were unable to comr"
         }
       ],
       "answer": "D",
-      "answer_text": "Was it because you didn't know about the \"undo\" feature that you were unable to complete the task?",
+      "answer_text": "Was it because you didn't know about the “undo” feature that you were unable to comr",
       "multiple_answers": false
     },
     {
@@ -2379,12 +2910,24 @@
       "question": "Which of the following is LEAST true about extrinsic, or material, incentives?",
       "options": [
         {
+          "label": "A",
+          "text": "You should frame incentives as gifts, not as payment"
+        },
+        {
           "label": "B",
-          "text": " Incentives given *before* the survey are more effective Cc. The more money you offer, the more likely people are to participate. Lotteries (a chance to win a larger reward) are not very effective as incentives."
+          "text": "Incentives given *before* the survey are more effective."
+        },
+        {
+          "label": "C",
+          "text": "The more money you offer, the more likely people are to participate."
+        },
+        {
+          "label": "D",
+          "text": "Lotteries (a chance to win a larger reward) are not very effective as incentiv"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "The more money you offer, the more likely people are to participate.",
       "multiple_answers": false
     },
     {
@@ -2394,15 +2937,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Can experienced online shoppers use Nomaza.com to find and purchase household items?"
+          "text": "Can experienced online shoppers use Nomaza.com to find and purchase household iter"
         },
         {
           "label": "B",
-          "text": " How likely are first-time users of Nomaza.com to return for a second visit? Are novice Internet shoppers able to complete the checkout process on Nomaza.com? Can people find stuff they want on Nomaza.com?"
+          "text": "How likely are first-time users of Nomaza.com to return for a second visit?"
+        },
+        {
+          "label": "C",
+          "text": "Are novice Internet shoppers able to complete the checkout process on Nomaza.com?"
+        },
+        {
+          "label": "D",
+          "text": "Can people find stuff they want on Nomaza.com?"
         }
       ],
       "answer": "AC",
-      "answer_text": null,
+      "answer_text": "Can experienced online shoppers use Nomaza.com to find and purchase household iter; Are novice Internet shoppers able to complete the checkout process on Nomaza.com?",
       "multiple_answers": true
     },
     {
@@ -2428,10 +2979,7 @@
         }
       ],
       "answer": "BC",
-      "answer_text": [
-        "Complete the Test Script",
-        "Add task instructions for users to replicate"
-      ],
+      "answer_text": "Complete the Test Script; Add task instructions for users to replicate",
       "multiple_answers": true
     },
     {
@@ -2457,11 +3005,7 @@
         }
       ],
       "answer": "ABD",
-      "answer_text": [
-        "Personas",
-        "Scenarios",
-        "Customer Journey Maps"
-      ],
+      "answer_text": "Personas; Scenarios; Customer Journey Maps",
       "multiple_answers": true
     },
     {
@@ -2487,11 +3031,7 @@
         }
       ],
       "answer": "ABC",
-      "answer_text": [
-        "Severity",
-        "Evidence",
-        "Clear description of the problem"
-      ],
+      "answer_text": "Severity; Evidence; Clear description of the problem",
       "multiple_answers": true
     },
     {
@@ -2525,12 +3065,7 @@
         }
       ],
       "answer": "ABCD",
-      "answer_text": [
-        "Value",
-        "Usability",
-        "Desirability",
-        "Adoptability"
-      ],
+      "answer_text": "Value; Usability; Desirability; Adoptability",
       "multiple_answers": true
     },
     {
@@ -2556,12 +3091,7 @@
         }
       ],
       "answer": "ABCD",
-      "answer_text": [
-        "They're open ended, not leading",
-        "They seek to learn about what problems there are with existing solutions",
-        "They are questions that can be answered by interviewing the target user population",
-        "They will help the researcher learn how users currently complete the activity that their design will try to improve"
-      ],
+      "answer_text": "They're open ended, not leading; They seek to learn about what problems there are with existing solutions; They are questions that can be answered by interviewing the target user population; They will help the researcher learn how users currently complete the activity that their design will try to improve",
       "multiple_answers": true
     },
     {
@@ -2571,11 +3101,27 @@
       "options": [
         {
           "label": "A",
-          "text": " Extensive report Have stakeholders attend study sessions and participate in analyzing and interpreting data. Create and show videos of critical moments during tests Emails that include bullet point findings Brief executive summary"
+          "text": "Extensive report"
+        },
+        {
+          "label": "B",
+          "text": "Have stakeholders attend study sessions and participate in analyzing and interpreting dat"
+        },
+        {
+          "label": "C",
+          "text": "Create and show videos of critical moments during tests"
+        },
+        {
+          "label": "D",
+          "text": "Emails that include bullet point findings"
+        },
+        {
+          "label": "E",
+          "text": "Brief executive summary"
         }
       ],
       "answer": "BCDE",
-      "answer_text": null,
+      "answer_text": "Have stakeholders attend study sessions and participate in analyzing and interpreting dat; Create and show videos of critical moments during tests; Emails that include bullet point findings; Brief executive summary",
       "multiple_answers": true
     },
     {
@@ -2609,13 +3155,7 @@
         }
       ],
       "answer": "ABCEF",
-      "answer_text": [
-        "Obtain Consent",
-        "Make introductions",
-        "Build rapport",
-        "Set expectations for duration and content of test",
-        "Set expectations for role of moderator and observer"
-      ],
+      "answer_text": "Obtain Consent; Make introductions; Build rapport; Set expectations for duration and content of test; Set expectations for role of moderator and observer",
       "multiple_answers": true
     },
     {
@@ -2625,15 +3165,23 @@
       "options": [
         {
           "label": "A",
-          "text": " J only"
+          "text": "lonly"
         },
         {
           "label": "B",
-          "text": " and Il only Cc. Hl only 1, Hand ti"
+          "text": "| and Il only"
+        },
+        {
+          "label": "C",
+          "text": "ll only"
+        },
+        {
+          "label": "D",
+          "text": "|, land Ill"
         }
       ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "|, land Ill",
       "multiple_answers": false
     },
     {
@@ -2666,27 +3214,78 @@
       "id": 134,
       "source_slide": 163,
       "question": "In which of the following contexts can you use qualitative data analysis?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "lonly"
+        },
+        {
+          "label": "B",
+          "text": "land ll"
+        },
+        {
+          "label": "C",
+          "text": "land Ill"
+        },
+        {
+          "label": "D",
+          "text": "1, Il, and Il"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "1, Il, and Il",
       "multiple_answers": false
     },
     {
       "id": 135,
       "source_slide": 164,
       "question": "Which of the following is worth noticing in an observation?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "ll only"
+        },
+        {
+          "label": "B",
+          "text": "Ill only"
+        },
+        {
+          "label": "C",
+          "text": "Iland Ill"
+        },
+        {
+          "label": "D",
+          "text": "|, and Ill"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "|, and Ill",
       "multiple_answers": false
     },
     {
       "id": 136,
       "source_slide": 165,
       "question": "Which of the following should you aim for when arranging interviews?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "land Il"
+        },
+        {
+          "label": "B",
+          "text": "land Ill"
+        },
+        {
+          "label": "C",
+          "text": "lland Ill"
+        },
+        {
+          "label": "D",
+          "text": "|, land Ill"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "|, land Ill",
       "multiple_answers": false
     },
     {
@@ -2721,21 +3320,54 @@
       "question": "Effective ways of delivering findings to stakeholders include: |. Anecdotes of critical moments II. Retelling what happened during each session of a usability test III. Having stakeholders attend study sessions and participating in analysing or interpreting data IV. Quotes or videos of critical moments AI i] ILIV",
       "options": [
         {
+          "label": "A",
+          "text": "|"
+        },
+        {
+          "label": "B",
+          "text": "Il"
+        },
+        {
+          "label": "C",
+          "text": "IV"
+        },
+        {
           "label": "D",
-          "text": "1, IV"
+          "text": "1, Il, IV"
         }
       ],
       "answer": "D",
-      "answer_text": "1, IV",
+      "answer_text": "1, Il, IV",
       "multiple_answers": false
     },
     {
       "id": 139,
       "source_slide": 169,
       "question": "What types of research activities are typically engaged in by 2-3 people design teams?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "I and IV"
+        },
+        {
+          "label": "B",
+          "text": "II"
+        },
+        {
+          "label": "C",
+          "text": "III"
+        },
+        {
+          "label": "D",
+          "text": "IV"
+        },
+        {
+          "label": "E",
+          "text": "II and IV"
+        }
+      ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "II",
       "multiple_answers": false
     },
     {
@@ -2745,11 +3377,27 @@
       "options": [
         {
           "label": "A",
-          "text": " ium"
+          "text": "11 Ul"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "I IV"
+        },
+        {
+          "label": "D",
+          "text": "IIL IV"
+        },
+        {
+          "label": "E",
+          "text": "V"
         }
       ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "V",
       "multiple_answers": false
     },
     {
@@ -2758,12 +3406,24 @@
       "question": "Which of the following are good guidelines for using an interview protocol?",
       "options": [
         {
+          "label": "A",
+          "text": "lonly"
+        },
+        {
           "label": "B",
-          "text": " only ic. IM only land Ill"
+          "text": "ll only"
+        },
+        {
+          "label": "C",
+          "text": "Ill only"
+        },
+        {
+          "label": "D",
+          "text": "land ill"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "lonly",
       "multiple_answers": false
     },
     {
@@ -2773,11 +3433,23 @@
       "options": [
         {
           "label": "A",
-          "text": " land it I and tt Wand it 1, Nand i"
+          "text": "land il"
+        },
+        {
+          "label": "B",
+          "text": "land Ill"
+        },
+        {
+          "label": "C",
+          "text": "Mand Ill"
+        },
+        {
+          "label": "D",
+          "text": "|, land Ill"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "land Ill",
       "multiple_answers": false
     },
     {
@@ -2786,16 +3458,20 @@
       "question": "Which of the following is a method one would use to learn more about users' attitudes, preferences, context, and needs?",
       "options": [
         {
+          "label": "A",
+          "text": "land Il"
+        },
+        {
           "label": "B",
           "text": "land Ill"
         },
         {
           "label": "C",
-          "text": "1,1, and IV"
+          "text": "I, Il, and IV"
         },
         {
           "label": "D",
-          "text": "1,11, Il, and iv"
+          "text": "1, Il, Ill, and IV"
         }
       ],
       "answer": "B",
@@ -2835,20 +3511,53 @@
       "options": [
         {
           "label": "A",
-          "text": " 1m,1v"
+          "text": "101"
+        },
+        {
+          "label": "B",
+          "text": "1 IV"
+        },
+        {
+          "label": "C",
+          "text": "ILIV"
+        },
+        {
+          "label": "D",
+          "text": "I, Ill EV"
         }
       ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "I, Ill EV",
       "multiple_answers": false
     },
     {
       "id": 146,
       "source_slide": 177,
       "question": "When is it most appropriate to conduct remote moderated testing?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "I, II, III"
+        },
+        {
+          "label": "B",
+          "text": "I, IV"
+        },
+        {
+          "label": "C",
+          "text": "I, II"
+        },
+        {
+          "label": "D",
+          "text": "I, II, IV"
+        },
+        {
+          "label": "E",
+          "text": "All of the above"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "I, II, IV",
       "multiple_answers": false
     },
     {
@@ -2858,15 +3567,27 @@
       "options": [
         {
           "label": "A",
-          "text": "All, and tll 1,01, and V"
+          "text": "1, Il, and Ill"
+        },
+        {
+          "label": "B",
+          "text": "1, Il, andV"
         },
         {
           "label": "C",
-          "text": " VandV I, IV, and V 1,11, IV, and V"
+          "text": "Vand V"
+        },
+        {
+          "label": "D",
+          "text": "Il, IV, andV"
+        },
+        {
+          "label": "E",
+          "text": "1 Ill, IV, andV"
         }
       ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "1 Ill, IV, andV",
       "multiple_answers": false
     },
     {
@@ -2876,11 +3597,27 @@
       "options": [
         {
           "label": "A",
-          "text": "11 mV, WV,v"
+          "text": "I, II, III"
+        },
+        {
+          "label": "B",
+          "text": "I, II, IV, V"
+        },
+        {
+          "label": "C",
+          "text": "II, IV, V"
+        },
+        {
+          "label": "D",
+          "text": "I, IV"
+        },
+        {
+          "label": "E",
+          "text": "VI"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "I, II, IV, V",
       "multiple_answers": false
     },
     {
@@ -2891,6 +3628,10 @@
         {
           "label": "A",
           "text": "Assessment"
+        },
+        {
+          "label": "B",
+          "text": "Communication"
         },
         {
           "label": "C",
@@ -2911,6 +3652,10 @@
       "question": "What is another name for the affinity wall technique?",
       "options": [
         {
+          "label": "A",
+          "text": "The KJ Method"
+        },
+        {
           "label": "B",
           "text": "Relatedness clustering"
         },
@@ -2924,7 +3669,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "The KJ Method",
       "multiple_answers": false
     },
     {
@@ -3009,9 +3754,22 @@
       "id": 154,
       "source_slide": 188,
       "question": "What type of question is the following survey question: How much do you like or dislike participating in surveys?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Bipolar ordinal"
+        },
+        {
+          "label": "B",
+          "text": "Unipolar ordinal"
+        },
+        {
+          "label": "C",
+          "text": "Nominal"
+        }
+      ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Bipolar ordinal",
       "multiple_answers": false
     },
     {
@@ -3021,11 +3779,23 @@
       "options": [
         {
           "label": "A",
-          "text": "Benchmarking IB. Analytics Review IC. AB testing ID. Remote usability testing"
+          "text": "Benchmarking"
+        },
+        {
+          "label": "B",
+          "text": "Analytics Review"
+        },
+        {
+          "label": "C",
+          "text": "AJB testing"
+        },
+        {
+          "label": "D",
+          "text": "Remote usability testing"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Analytics Review",
       "multiple_answers": false
     },
     {
@@ -3169,24 +3939,45 @@
       "options": [
         {
           "label": "A",
-          "text": " Critical incidents"
+          "text": "Critical incidents"
         },
         {
           "label": "B",
-          "text": " Perceived usability 'Suggested improvements Participant demographics"
+          "text": "Perceived usability"
+        },
+        {
+          "label": "C",
+          "text": "Suggested improvements"
+        },
+        {
+          "label": "D",
+          "text": "Participant demographics"
         }
       ],
       "answer": "A",
-      "answer_text": " Critical incidents",
+      "answer_text": "Critical incidents",
       "multiple_answers": false
     },
     {
       "id": 162,
       "source_slide": 196,
       "question": "Which position on the social effects of technology claims that technological adoption is primanly governed by the needs of different social groups and that it has little to do with the properties of the actual technology?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Social determinists"
+        },
+        {
+          "label": "B",
+          "text": "Technical determinists"
+        },
+        {
+          "label": "C",
+          "text": "Interactionists"
+        }
+      ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Social determinists",
       "multiple_answers": false
     },
     {
@@ -3194,6 +3985,10 @@
       "source_slide": 197,
       "question": "Which component of the QOC framework articulates conditions or constraints that the design needs to meet?",
       "options": [
+        {
+          "label": "A",
+          "text": "Questions"
+        },
         {
           "label": "B",
           "text": "Options"
@@ -3218,7 +4013,15 @@
       "options": [
         {
           "label": "A",
-          "text": "Expertise IB. Behavioral IC. Characteristic"
+          "text": "Expertise"
+        },
+        {
+          "label": "B",
+          "text": "Behavioral"
+        },
+        {
+          "label": "C",
+          "text": "Characteristic"
         },
         {
           "label": "D",
@@ -3226,7 +4029,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Behavioral",
       "multiple_answers": false
     },
     {
@@ -3261,8 +4064,16 @@
       "question": "About how many \"key findings\" should be included in a typical user test report?",
       "options": [
         {
+          "label": "A",
+          "text": "1"
+        },
+        {
           "label": "B",
-          "text": "23 5-10"
+          "text": "2-3"
+        },
+        {
+          "label": "C",
+          "text": "5-10"
         },
         {
           "label": "D",
@@ -3270,7 +4081,7 @@
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "5-10",
       "multiple_answers": false
     },
     {
@@ -3284,7 +4095,11 @@
         },
         {
           "label": "B",
-          "text": "Aschema Cc. Amule"
+          "text": "A schema"
+        },
+        {
+          "label": "C",
+          "text": "A mule"
         },
         {
           "label": "D",
@@ -3292,7 +4107,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "Aschema Cc. Amule",
+      "answer_text": "A schema",
       "multiple_answers": false
     },
     {
@@ -3327,6 +4142,10 @@
       "question": "A change in an environment or system that indicates that a user's action was recognized and communicates the result of that action is called: 'A. Response time",
       "options": [
         {
+          "label": "A",
+          "text": "Response time"
+        },
+        {
           "label": "B",
           "text": "Asignal"
         },
@@ -3350,7 +4169,11 @@
       "options": [
         {
           "label": "A",
-          "text": "System images IB. Assumptions"
+          "text": "System images"
+        },
+        {
+          "label": "B",
+          "text": "Assumptions"
         },
         {
           "label": "C",
@@ -3398,11 +4221,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Usability Perceived usefulness. Acquiescence Informed Consent"
+          "text": "Usability"
+        },
+        {
+          "label": "B",
+          "text": "Perceived usefulness"
+        },
+        {
+          "label": "C",
+          "text": "Acquiescence"
+        },
+        {
+          "label": "D",
+          "text": "Informed Consent"
         }
       ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Informed Consent",
       "multiple_answers": false
     },
     {
@@ -3464,20 +4299,49 @@
       "options": [
         {
           "label": "A",
-          "text": "One or two IB. About 7 IC. About 10 ID. There is no measurable limit"
+          "text": "One or two"
+        },
+        {
+          "label": "B",
+          "text": "About 7"
+        },
+        {
+          "label": "C",
+          "text": "About 10"
+        },
+        {
+          "label": "D",
+          "text": "There is no measurable limit"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "About 7",
       "multiple_answers": false
     },
     {
       "id": 176,
       "source_slide": 214,
       "question": "According to Wikipedia, a \"direct manipulation interface\" is one that features \"continuous representation of lobjects of interest and rapid, reversible, and incremental actions and feedback.\" The \"continuous representation of objects of interest\" is best aligned with which principle of good UI design?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Prevent errors before they happen"
+        },
+        {
+          "label": "B",
+          "text": "Support recognition over recall"
+        },
+        {
+          "label": "C",
+          "text": "Employ aesthetic and minimalist design"
+        },
+        {
+          "label": "D",
+          "text": "Support user control and freedom"
+        }
+      ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Support recognition over recall",
       "multiple_answers": false
     },
     {
@@ -3513,7 +4377,11 @@
       "options": [
         {
           "label": "A",
-          "text": "Recruiting criteria IB. Diversity criteria"
+          "text": "Recruiting criteria"
+        },
+        {
+          "label": "B",
+          "text": "Diversity criteria"
         },
         {
           "label": "C",
@@ -3525,7 +4393,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": "Recruiting criteria IB. Diversity criteria",
+      "answer_text": "Recruiting criteria",
       "multiple_answers": false
     },
     {
@@ -3560,16 +4428,24 @@
       "question": "Designing thoughtful defaults is important for several reasons. Which of the following is not a reason for designing good defaults. |A. Defaults define out-of-the-box experience",
       "options": [
         {
+          "label": "A",
+          "text": "Defaults define out-of-the-box experience"
+        },
+        {
           "label": "B",
-          "text": "Defaults are easily changed IC. Defaults decrease onboarding time"
+          "text": "Defaults are easily changed."
+        },
+        {
+          "label": "C",
+          "text": "Defaults decrease onboarding time"
         },
         {
           "label": "D",
-          "text": "Defaults can have large consequences"
+          "text": "Defaults can have large consequences."
         }
       ],
       "answer": "B",
-      "answer_text": "Defaults are easily changed IC. Defaults decrease onboarding time",
+      "answer_text": "Defaults are easily changed.",
       "multiple_answers": false
     },
     {
@@ -3657,11 +4533,23 @@
       "options": [
         {
           "label": "A",
-          "text": "The Gulf of Inspection IB. The Gulf of Expectation IC. The Gulf of Execution ID. The Gulf of Evaluation"
+          "text": "The Gulf of Inspection"
+        },
+        {
+          "label": "B",
+          "text": "The Gulf of Expectation"
+        },
+        {
+          "label": "C",
+          "text": "The Gulf of Execution"
+        },
+        {
+          "label": "D",
+          "text": "The Gulf of Evaluation"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "The Gulf of Execution",
       "multiple_answers": false
     },
     {
@@ -3675,7 +4563,11 @@
         },
         {
           "label": "B",
-          "text": "Design/Development |C. Optimization"
+          "text": "Design/Development"
+        },
+        {
+          "label": "C",
+          "text": "Optimization"
         },
         {
           "label": "D",
@@ -3797,15 +4689,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Logger"
+          "text": "Logger"
         },
         {
           "label": "B",
-          "text": " Moderator Interviewer Technician"
+          "text": "Moderator"
+        },
+        {
+          "label": "C",
+          "text": "Interviewer"
+        },
+        {
+          "label": "D",
+          "text": "Technician"
         }
       ],
       "answer": "B",
-      "answer_text": " Moderator Interviewer Technician",
+      "answer_text": "Moderator",
       "multiple_answers": false
     },
     {
@@ -3840,6 +4740,10 @@
       "question": "The pattern of eye fixations that people perform when processing a web page has been shov what shape?",
       "options": [
         {
+          "label": "A",
+          "text": "Acircle"
+        },
+        {
           "label": "B",
           "text": "Aspiral"
         },
@@ -3849,7 +4753,7 @@
         },
         {
           "label": "D",
-          "text": "The letter '2'"
+          "text": "The letter ‘2’"
         }
       ],
       "answer": "C",
@@ -3897,7 +4801,11 @@
         },
         {
           "label": "C",
-          "text": "Sampling error ID. Measurement error"
+          "text": "Sampling error"
+        },
+        {
+          "label": "D",
+          "text": "Measurement error"
         }
       ],
       "answer": "B",
@@ -3945,7 +4853,11 @@
         },
         {
           "label": "C",
-          "text": "Competitive D.A/B"
+          "text": "Competitive"
+        },
+        {
+          "label": "D",
+          "text": "A/B"
         }
       ],
       "answer": "B",
@@ -3984,8 +4896,12 @@
       "question": "What makes a problem \"wicked\" in design?",
       "options": [
         {
+          "label": "A",
+          "text": "It has no single clear solution"
+        },
+        {
           "label": "B",
-          "text": "Itrelates to app performance issues"
+          "text": "It relates to app performance issues"
         },
         {
           "label": "C",
@@ -3993,11 +4909,11 @@
         },
         {
           "label": "D",
-          "text": "Itis solved through visual design"
+          "text": "It is solved through visual design"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "It has no single clear solution",
       "multiple_answers": false
     },
     {
@@ -4006,12 +4922,24 @@
       "question": "Rank these prototypes in order of fidelity, from low to high. A.1, 2,3",
       "options": [
         {
+          "label": "A",
+          "text": "1,2,3"
+        },
+        {
           "label": "B",
-          "text": "3, 2,1 C.1,3,2 D.2,1,5"
+          "text": "3, 2,1"
+        },
+        {
+          "label": "C",
+          "text": "1,35,2"
+        },
+        {
+          "label": "D",
+          "text": "2,1, 3"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "1,2,3",
       "multiple_answers": false
     },
     {
@@ -4019,6 +4947,10 @@
       "source_slide": 244,
       "question": "What makes these good research questions for a needs-finding study?",
       "options": [
+        {
+          "label": "A",
+          "text": "They're open ended, not leading"
+        },
         {
           "label": "B",
           "text": "They seek to learn about what problems there are with existing solutions"
@@ -4029,11 +4961,15 @@
         },
         {
           "label": "D",
-          "text": "They will help the researcher learn how users currently complete the activity that their design will try to improve E Allof the others"
+          "text": "They will help the researcher learn how users currently complete the activity that their des improve"
+        },
+        {
+          "label": "E",
+          "text": "All of the others"
         }
       ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "All of the others",
       "multiple_answers": false
     },
     {
@@ -4095,15 +5031,23 @@
       "options": [
         {
           "label": "A",
-          "text": " It is not realistic Itis not verifiable Cc. It \"leads the witness\""
+          "text": "Itis not realistic"
+        },
+        {
+          "label": "B",
+          "text": "Itis not verifiable"
+        },
+        {
+          "label": "C",
+          "text": "It “leads the witness\""
         },
         {
           "label": "D",
-          "text": "Itis not the most efficient way of learning about'a Coursera course"
+          "text": "Itis not the most efficient way of learning about a Coursera course"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Itis not verifiable",
       "multiple_answers": false
     },
     {
@@ -4117,7 +5061,11 @@
         },
         {
           "label": "B",
-          "text": "Leads to acquiescence bias 'C. Cognitively burdensome"
+          "text": "Leads to acquiescence bias"
+        },
+        {
+          "label": "C",
+          "text": "Cognitively burdensome"
         },
         {
           "label": "D",
@@ -4125,7 +5073,7 @@
         }
       ],
       "answer": "B",
-      "answer_text": "Leads to acquiescence bias 'C. Cognitively burdensome",
+      "answer_text": "Leads to acquiescence bias",
       "multiple_answers": false
     },
     {
@@ -4210,9 +5158,26 @@
       "id": 208,
       "source_slide": 258,
       "question": "What is the main problem with the following survey question?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "The response categories don't match the question stem."
+        },
+        {
+          "label": "B",
+          "text": "The question stem doesn't include both poles of the scale."
+        },
+        {
+          "label": "C",
+          "text": "This should be framed as a unipolar scale."
+        },
+        {
+          "label": "D",
+          "text": "There's nothing wrong with this question."
+        }
+      ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "The question stem doesn't include both poles of the scale.",
       "multiple_answers": false
     },
     {
@@ -4247,8 +5212,16 @@
       "question": "What is the value of having an overarching question in an interview protocol?",
       "options": [
         {
+          "label": "A",
+          "text": "It provides a focus for the interview that the interviewer keeps in mind through"
+        },
+        {
           "label": "B",
-          "text": "Itserves as a catch-all question to ask at the end of an interview. (C. Itis @ good opening question to ask during the interview."
+          "text": "It serves as a catch-all question to ask at the end of an interview"
+        },
+        {
+          "label": "C",
+          "text": "Itis a good opening question to ask during the interview."
         },
         {
           "label": "D",
@@ -4256,7 +5229,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "It provides a focus for the interview that the interviewer keeps in mind through",
       "multiple_answers": false
     },
     {
@@ -4291,16 +5264,24 @@
       "question": "What is the first step in conducting a Heuristic Evaluation?",
       "options": [
         {
+          "label": "A",
+          "text": "Create a prioritized list of issues"
+        },
+        {
           "label": "B",
-          "text": "Choose specific screens or interactions to focus on. CC. Conduct user interviews"
+          "text": "Choose specific screens or interactions to focus on"
+        },
+        {
+          "label": "C",
+          "text": "Conduct user interviews"
         },
         {
           "label": "D",
-          "text": "Test the system's speed"
+          "text": "Test the system’s speed"
         }
       ],
       "answer": "B",
-      "answer_text": "Choose specific screens or interactions to focus on. CC. Conduct user interviews",
+      "answer_text": "Choose specific screens or interactions to focus on",
       "multiple_answers": false
     },
     {
@@ -4309,25 +5290,50 @@
       "question": "What can UX researchers do to minimize the impact of confirmation bias?",
       "options": [
         {
+          "label": "A",
+          "text": "Wherever possible, have user tests conducted by neutral third parties who have no investment in outcome of the test"
+        },
+        {
           "label": "B",
-          "text": "Recruit only family and friends as participants, since they will be more honest about their feelings IC. Researchers should trust their intuition when analyzing test results, rather than seeking to be systematic land impartial"
+          "text": "Recruit only family and friends as participants, since they will be more honest about their feelings"
+        },
+        {
+          "label": "C",
+          "text": "Researchers should trust their intuition when analyzing test results, rather than seeking to be sys and impartial"
         },
         {
           "label": "D",
-          "text": "Ask participants the same questions at least 3 times, in order to confirm that the answers accurately reflect their feelings"
+          "text": "Ask participants the same questions at least 3 times, in order to confirm that the answers accural their feelings"
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Wherever possible, have user tests conducted by neutral third parties who have no investment in outcome of the test",
       "multiple_answers": false
     },
     {
       "id": 214,
       "source_slide": 264,
       "question": "What does the concept of 'demand characteristics\" wam us about when applied to user testing?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Participants will perform differently when observed than they would if they were on their own"
+        },
+        {
+          "label": "B",
+          "text": "Participants are likely to tell us what they think we want to hear"
+        },
+        {
+          "label": "C",
+          "text": "Participants who receive monetary compensation will typically perform better on tasks than those who don't"
+        },
+        {
+          "label": "D",
+          "text": "Researchers shouldn't ask participants to do anything in particular, rather they should let participants decide what to do"
+        }
+      ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Participants are likely to tell us what they think we want to hear",
       "multiple_answers": false
     },
     {
@@ -4336,8 +5342,12 @@
       "question": "What does it mean to balance abstraction and precision in an affinity wall cluster summary?",
       "options": [
         {
+          "label": "A",
+          "text": "The summary should be neither too long nor too short"
+        },
+        {
           "label": "B",
-          "text": "The summary should use some of the same vocabulary used in the notes in the cluster"
+          "text": "The summary should use some of the same vocabulary used in the notes in the cluster."
         },
         {
           "label": "C",
@@ -4345,11 +5355,11 @@
         },
         {
           "label": "D",
-          "text": "The summary should represent all of the notes in the cluster while being as specific and insightful as, possible."
+          "text": "is summary should represent all of the notes in the cluster while being as specific and i possible."
         }
       ],
       "answer": "D",
-      "answer_text": "The summary should represent all of the notes in the cluster while being as specific and insightful as, possible.",
+      "answer_text": "is summary should represent all of the notes in the cluster while being as specific and i possible.",
       "multiple_answers": false
     },
     {
@@ -4437,7 +5447,7 @@
       "options": [
         {
           "label": "A",
-          "text": "A self-contained summary of the knowledge in the associated cluster."
+          "text": "A self-contained summary of the knowledge in the as cluster."
         },
         {
           "label": "B",
@@ -4445,11 +5455,15 @@
         },
         {
           "label": "C",
-          "text": "Anew question to ask in a future user needs assessment. D.A salience ranking of the affinity notes in the associated cluster."
+          "text": "Anew question to ask in a future user needs assessm<e"
+        },
+        {
+          "label": "D",
+          "text": "A salience ranking of the affinity notes in the associate cluster."
         }
       ],
       "answer": "A",
-      "answer_text": "A self-contained summary of the knowledge in the associated cluster.",
+      "answer_text": "A self-contained summary of the knowledge in the as cluster.",
       "multiple_answers": false
     },
     {
@@ -4459,11 +5473,23 @@
       "options": [
         {
           "label": "A",
-          "text": " Let the participant hear what you're thinking while you observe them. Prompt the user to convey their thinking out loud with short questions. Respond to the participant by telling whether what they're saying is correct or not Sit quietly and observe, even if the participant says nothing"
+          "text": "Let the participant hear what you're thinking while you observe them."
+        },
+        {
+          "label": "B",
+          "text": "Prompt the user to convey their thinking out loud with short questions."
+        },
+        {
+          "label": "C",
+          "text": "Respond to the participant by telling whether what they're saying is correct or not."
+        },
+        {
+          "label": "D",
+          "text": "Sit quietly and observe, even if the participant says nothing."
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Prompt the user to convey their thinking out loud with short questions.",
       "multiple_answers": false
     },
     {
@@ -4789,11 +5815,11 @@
       "options": [
         {
           "label": "A",
-          "text": "#2 because it includes relevant demographic information, motivations and needs related to the design problem, and characteristics could constrain the persona's ability to use a system."
+          "text": "#2 because it includes relevant demographic information, motivations and needs related to the design problem, and characteristics that could constrain the persona’s ability to use the system."
         },
         {
           "label": "B",
-          "text": "#1 because there are more personas and they're in paragraph form"
+          "text": "#1 because there are more personas and they’re in portrait form"
         },
         {
           "label": "C",
@@ -4801,16 +5827,37 @@
         }
       ],
       "answer": "A",
-      "answer_text": "#2 because it includes relevant demographic information, motivations and needs related to the design problem, and characteristics could constrain the persona's ability to use a system.",
+      "answer_text": "#2 because it includes relevant demographic information, motivations and needs related to the design problem, and characteristics that could constrain the persona’s ability to use the system.",
       "multiple_answers": false
     },
     {
       "id": 234,
       "source_slide": 289,
       "question": "Which of the following can prototypes help designers test?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "The overall design concept"
+        },
+        {
+          "label": "B",
+          "text": "Functionality of different components of the system"
+        },
+        {
+          "label": "C",
+          "text": "Screen layouts"
+        },
+        {
+          "label": "D",
+          "text": "User interactions"
+        },
+        {
+          "label": "E",
+          "text": "All of the others"
+        }
+      ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "All of the others",
       "multiple_answers": false
     },
     {
@@ -4898,11 +5945,23 @@
       "options": [
         {
           "label": "A",
-          "text": " It's the optional instructions for how to answer a question. It's the set of responses that a respondent can give It's the query that operationalizes the concept of interest and prompts a response. It's a Series of questions that are used together to form a scale"
+          "text": "It's the optional instructions for how to answer a question"
+        },
+        {
+          "label": "B",
+          "text": "It's the set of responses that a respondent can give."
+        },
+        {
+          "label": "C",
+          "text": "It's the query that operationalizes the concept of interest and prompts a response."
+        },
+        {
+          "label": "D",
+          "text": "It's a series of questions that are used together to form a scale."
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "It's the query that operationalizes the concept of interest and prompts a response.",
       "multiple_answers": false
     },
     {
@@ -4942,11 +6001,19 @@
         },
         {
           "label": "B",
-          "text": "Asking people who use a site's shopping cart how they feel about that experience. IC. Emailing a random sample of employees who started at the company this year based on a list provided by ID. Asking one group of respondents to forward the survey invite to their social networks"
+          "text": "Asking people who use a site's shopping cart how they feel about that experience."
+        },
+        {
+          "label": "C",
+          "text": "Emailing a random sample of employees who started at the company this year based on a list from HR."
+        },
+        {
+          "label": "D",
+          "text": "Asking one group of respondents to forward the survey invite to their social networks."
         }
       ],
       "answer": "B",
-      "answer_text": "Asking people who use a site's shopping cart how they feel about that experience. IC. Emailing a random sample of employees who started at the company this year based on a list provided by ID. Asking one group of respondents to forward the survey invite to their social networks",
+      "answer_text": "Asking people who use a site's shopping cart how they feel about that experience.",
       "multiple_answers": false
     },
     {
@@ -5007,6 +6074,10 @@
       "question": "Which of the following questions is best answered by a qualitative research methodology?",
       "options": [
         {
+          "label": "A",
+          "text": "What proportion of Gadget X users love Feature Y?"
+        },
+        {
           "label": "B",
           "text": "What are the different ways in which Gadget X frustrates its users?"
         },
@@ -5027,9 +6098,26 @@
       "id": 244,
       "source_slide": 300,
       "question": "J Wiich of the following is a BAD question to ask during a user needs assessment interview?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Could you tell me about a recent time when you used the “undo” feature?"
+        },
+        {
+          "label": "B",
+          "text": "Tell me more -- what was the context when you used the “undo” feature?"
+        },
+        {
+          "label": "C",
+          "text": "What functionality would you have liked to have to complete the task?"
+        },
+        {
+          "label": "D",
+          "text": "Was it because you didn’t know about the “undo” feature that you were unable to comp!"
+        }
+      ],
       "answer": "D",
-      "answer_text": null,
+      "answer_text": "Was it because you didn’t know about the “undo” feature that you were unable to comp!",
       "multiple_answers": false
     },
     {
@@ -5064,12 +6152,16 @@
       "question": "Which of the following is an example of a good use of a post-test questionnaire?",
       "options": [
         {
+          "label": "A",
+          "text": "Asking open-ended questions where participants can give any answer that co"
+        },
+        {
           "label": "B",
-          "text": "Asking follow-up questions to understand why participants gave answers that they did"
+          "text": "Asking follow-up questions to understand why participants gave answers that"
         },
         {
           "label": "C",
-          "text": "Obtaining quantified measures of participants subjective reactions to using a system"
+          "text": "Obtaining quantified measures of participants subjective reactions to using a:"
         },
         {
           "label": "D",
@@ -5077,7 +6169,7 @@
         }
       ],
       "answer": "C",
-      "answer_text": "Obtaining quantified measures of participants subjective reactions to using a system",
+      "answer_text": "Obtaining quantified measures of participants subjective reactions to using a:",
       "multiple_answers": false
     },
     {
@@ -5195,11 +6287,23 @@
       "options": [
         {
           "label": "A",
-          "text": "Otherwise there is no way to know if they've finished IB. Allowing the moderator to declare a task \"done\" could give the participant more information than they would have if conducting the task outside the test environment IC. Saying \"'m done\" gives the participant a sense of accomplishment It allows the moderator to pay less attention to the current task and start to prepare for the next one"
+          "text": "Otherwise there is no way to know if they've finished"
+        },
+        {
+          "label": "B",
+          "text": "Allowing the moderator to declare a task “done” could give the participant more informatic would have if conducting the task outside the test environment"
+        },
+        {
+          "label": "C",
+          "text": "Saying “I'm done” gives the participant a sense of accomplishment"
+        },
+        {
+          "label": "D",
+          "text": "It allows the moderator to pay less attention to the current task and start to prepare for the"
         }
       ],
       "answer": "B",
-      "answer_text": null,
+      "answer_text": "Allowing the moderator to declare a task “done” could give the participant more informatic would have if conducting the task outside the test environment",
       "multiple_answers": false
     },
     {
@@ -5208,12 +6312,16 @@
       "question": "Why would a designer create storyboards as opposed to write scenarios?",
       "options": [
         {
+          "label": "A",
+          "text": "To better represent physical environment in which the technology would be us"
+        },
+        {
           "label": "B",
           "text": "To better represent relationships among multiple people"
         },
         {
           "label": "C",
-          "text": "To better envision size or other physical constraints of the technology and its use"
+          "text": "To better envision size or other physical constraints of the technology and its |"
         },
         {
           "label": "D",
@@ -5256,20 +6364,24 @@
       "question": "Because some users learn how to use a system through trial and error, it is important to: |A. provide extensive documentation to ensure that users always do the right thing",
       "options": [
         {
+          "label": "A",
+          "text": "provide extensive documentation to ensure that users always do the rig"
+        },
+        {
           "label": "B",
-          "text": "force users to undergo training before using a system so they don't break anything"
+          "text": "force users to undergo training before using a system so they don't bre"
         },
         {
           "label": "C",
-          "text": "provide users with only one option at a time so that they cannot make mistakes"
+          "text": "provide users with only one option at a time so that they cannot make n"
         },
         {
           "label": "D",
-          "text": "support \"undo\" and \"redo\" to help users recover from mistakes"
+          "text": "support “undo” and “redo” to help users recover from mistakes"
         }
       ],
       "answer": "D",
-      "answer_text": "support \"undo\" and \"redo\" to help users recover from mistakes",
+      "answer_text": "support “undo” and “redo” to help users recover from mistakes",
       "multiple_answers": false
     },
     {
@@ -5308,8 +6420,12 @@
           "text": "Physical space (like a design studio) where design activities take place"
         },
         {
+          "label": "B",
+          "text": "Space into which the design has to fit (e.g., the size of the screen of a mobile phone)"
+        },
+        {
           "label": "C",
-          "text": "Properties of the space (e.g, location, shape of the room) where the design will be used"
+          "text": "Properties of the space (e.g., location, shape of the room) where the design will be us"
         },
         {
           "label": "D",
@@ -5430,12 +6546,24 @@
       "question": "Gulf of execution refers to which of the following?",
       "options": [
         {
+          "label": "A",
+          "text": "The time it takes an application to execute some computationally-intensive task, such as ri Statistical model."
+        },
+        {
           "label": "B",
-          "text": "The difference between the output the system provided and the output the user wanted IC. The discrepancy between what the user is trying to do and what he/she is able to do using the system's interface ID. The time between when the user gives the system a command and when the system executes that command (eg, the delay in responding to a button press)"
+          "text": "The difference between the output the system provided and the output the user wanted."
+        },
+        {
+          "label": "C",
+          "text": "The discrepancy between what the user is trying to do and what he/she is able to do using interface."
+        },
+        {
+          "label": "D",
+          "text": "The time between when the user gives the system a command and when the system exec command (e.g., the delay in responding to a button press)"
         }
       ],
       "answer": "C",
-      "answer_text": null,
+      "answer_text": "The discrepancy between what the user is trying to do and what he/she is able to do using interface.",
       "multiple_answers": false
     },
     {
@@ -5470,8 +6598,12 @@
       "question": "Is this a good scope for a user test?",
       "options": [
         {
+          "label": "A",
+          "text": "Yes, it has users test the core functions of the app"
+        },
+        {
           "label": "B",
-          "text": "No, a user test needs to include testing every single task in the application to deliver valuable data"
+          "text": "No, a user test needs to include testing every single task in the application to deliver valu"
         },
         {
           "label": "C",
@@ -5483,7 +6615,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Yes, it has users test the core functions of the app",
       "multiple_answers": false
     },
     {
@@ -5544,8 +6676,16 @@
       "question": "Personas represent target users and are, thus, primarily a distillation of the findings from formative work begin to move designers toward a design solution. How do scenarios do this?",
       "options": [
         {
+          "label": "A",
+          "text": "By envisioning how a technology might address the needs identified in formative work"
+        },
+        {
           "label": "B",
-          "text": "By enumerating features of the technology being designed IC. By articulating tradeoffs of different design solutions"
+          "text": "By enumerating features of the technology being designed"
+        },
+        {
+          "label": "C",
+          "text": "By articulating tradeoffs of different design solutions"
         },
         {
           "label": "D",
@@ -5553,7 +6693,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "By envisioning how a technology might address the needs identified in formative work",
       "multiple_answers": false
     },
     {
@@ -5562,25 +6702,58 @@
       "question": "Personas include different types of information, from demographics to motivations and sociocultural context How should designers decide what information to include?",
       "options": [
         {
+          "label": "A",
+          "text": "They should focus on making the information as complete as possible"
+        },
+        {
           "label": "B",
-          "text": "They should focus on idiosyncratic characteristics of people they encountered in the formative research that will make personas as vivid as possible IC. They should focus mostly on demographic information; other types of information are secondary"
+          "text": "They should focus on idiosyncratic characteristics of people they encountered in the formativ that will make personas as vivid as possible"
+        },
+        {
+          "label": "C",
+          "text": "They should focus mostly on demographic information; other types of information are second"
         },
         {
           "label": "D",
-          "text": "They should focus on information that contributes to the distinct needs and potential barriers to and motivations for use that each class of target users has in relation to the technology being developed"
+          "text": "They should focus on information that contributes to the distinct needs and potential barriers motivations for use that each class of target users has in relation to the technology being develo"
         }
       ],
       "answer": "D",
-      "answer_text": "They should focus on information that contributes to the distinct needs and potential barriers to and motivations for use that each class of target users has in relation to the technology being developed",
+      "answer_text": "They should focus on information that contributes to the distinct needs and potential barriers motivations for use that each class of target users has in relation to the technology being develo",
       "multiple_answers": false
     },
     {
       "id": 268,
       "source_slide": 336,
       "question": "The design process is highly iterative. Which of the following are iterative loops that a designer might do in the course of a project?",
-      "options": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "From ideation to problem framing"
+        },
+        {
+          "label": "B",
+          "text": "From creation of scenarios and storyboards to ideation"
+        },
+        {
+          "label": "C",
+          "text": "From creation of scenarios and storyboards to problem framing"
+        },
+        {
+          "label": "D",
+          "text": "From prototyping to ideation"
+        },
+        {
+          "label": "E",
+          "text": "All of the others"
+        },
+        {
+          "label": "F",
+          "text": "None of the others"
+        }
+      ],
       "answer": "E",
-      "answer_text": null,
+      "answer_text": "All of the others",
       "multiple_answers": false
     },
     {
@@ -5667,6 +6840,10 @@
       "question": "In the \"Questions, Options, Criteria\" framework, what does \"Criteria\" refer to?",
       "options": [
         {
+          "label": "A",
+          "text": "The possible solutions to a design problem"
+        },
+        {
           "label": "B",
           "text": "The questions that need answers"
         },
@@ -5688,6 +6865,10 @@
       "source_slide": 344,
       "question": "Which of the following represents the system's state A Information about the user's current location",
       "options": [
+        {
+          "label": "A",
+          "text": "Information about the user's current location"
+        },
         {
           "label": "B",
           "text": "User profile information"
@@ -5711,6 +6892,10 @@
       "question": "What does the designer need to know in order to design effective output?",
       "options": [
         {
+          "label": "A",
+          "text": "What information the user needs to accomplish the task"
+        },
+        {
           "label": "B",
           "text": "Context in which the information will be accessed"
         },
@@ -5732,6 +6917,10 @@
       "source_slide": 347,
       "question": "What are the stages of visual perception?",
       "options": [
+        {
+          "label": "A",
+          "text": "Perception, Memory, Response"
+        },
         {
           "label": "B",
           "text": "Feature detection, pattern recognition, object recognition"
@@ -5755,6 +6944,10 @@
       "question": "What is the 4-point severity scale used for in Heuristic Evaluation?",
       "options": [
         {
+          "label": "A",
+          "text": "To assess the cost of resolving an issue"
+        },
+        {
           "label": "B",
           "text": "To prioritize usability issues based on their severity"
         },
@@ -5777,6 +6970,10 @@
       "question": "Awebsite's help documentation is lengthy and not task-focused. How would you assess this based on the course's principles?",
       "options": [
         {
+          "label": "A",
+          "text": "It is acceptable, as long documentation covers all scenarios"
+        },
+        {
           "label": "B",
           "text": "It violates help and documentation heuristic, as it should be concise and task-oriented"
         },
@@ -5786,7 +6983,7 @@
         },
         {
           "label": "D",
-          "text": "It aligns with flexibility and efficiency of use for expert users,"
+          "text": "It aligns with flexibility and efficiency of use for expert users"
         }
       ],
       "answer": "B",
@@ -5798,6 +6995,10 @@
       "source_slide": 351,
       "question": "What does a prototype help designers achieve?",
       "options": [
+        {
+          "label": "A",
+          "text": "Testing ideas, assessing user needs, and reflecting on the design"
+        },
         {
           "label": "B",
           "text": "Defining user personas"
@@ -5812,7 +7013,7 @@
         }
       ],
       "answer": "A",
-      "answer_text": null,
+      "answer_text": "Testing ideas, assessing user needs, and reflecting on the design",
       "multiple_answers": false
     }
   ]

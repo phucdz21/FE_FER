@@ -23,7 +23,7 @@ export function getCorrectAnswers(question) {
       return trimmed.split(',').map((a) => a.trim().toUpperCase());
     }
     // Handle concatenated letter combos like 'AC', 'ABD', 'BCDE'
-    if (/^[A-Z]{2,5}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
+    if (/^[A-Z]{2,6}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
       return trimmed.split('');
     }
     return [trimmed];
@@ -52,7 +52,7 @@ export function checkIsCorrect(userChoice, question) {
     const trimmed = userChoice.trim().toUpperCase();
     if (trimmed.includes(',')) {
       userArr = trimmed.split(',').map((c) => c.trim().toUpperCase());
-    } else if (/^[A-Z]{2,5}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
+    } else if (/^[A-Z]{2,6}$/.test(trimmed) && !['TRUE', 'FALSE'].includes(trimmed)) {
       userArr = trimmed.split('');
     } else {
       userArr = [trimmed];
